@@ -15,11 +15,42 @@ site_description: Documentation for QIACHIP Productions
 # Site author information, usually displayed in footer
 site_author: QIACHIP Productions
 
+# 主题配置 (Theme Configuration)
+# 使用Material for MkDocs主题
+# Using Material for MkDocs theme
+theme:
+  name: material
+  
+  # 主题功能特性
+  # Theme features
+  features:
+    - navigation.sections
+    - navigation.indexes  # 启用索引式导航
+    - navigation.tabs    # 启用标签式导航
+    - navigation.tabs.sticky
+    - navigation.top     # 启用顶部导航栏
+
+# 引入自定义 CSS 文件，实现精细隐藏父级菜单项
+extra_css:
+  - assets/css/extra.css
+
+
 markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.superfences
   - admonition
+
+# ------------------------------
+# 插件配置（Plugins Configuration）
+# ------------------------------
+# 启用MkDocs内置搜索插件和glightbox图片插件
+# Enable built-in search plugin and glightbox image plugin
+plugins:
+ - search
+ - meta  
+ - glightbox:
+    selector: img
 
 # 版权声明，显示在页面底部
 # Copyright notice, displayed at page footer
@@ -36,33 +67,11 @@ nav:
     - KR1201: KR1201/KR1201.md
     - KR1202: KR1202-V05/KR1202-V05.md
     - KR2202: KR2202/KR2202.md
-  - 版本管理: version-guide.md
- 
-
-
-# 主题配置 (Theme Configuration)
-# 使用Material for MkDocs主题
-# Using Material for MkDocs theme
-theme:
-  name: material
-  
-  # 主题功能特性
-  # Theme features
-  features:
-    - navigation.indexes  # 启用索引式导航
-    - navigation.tabs    # 启用标签式导航
-    - navigation.top     # 启用顶部导航栏
-    - navigation.tabs.sticky
-    - navigation.sections
-  
-   
-# ------------------------------
-# 插件配置（Plugins Configuration）
-# ------------------------------
-# 启用MkDocs内置搜索插件
-# Enable built-in search plugin
-plugins:
- - search
+  - FAQ: FAQ.md
+  - QIACHIP: https://www.qiachip.com
+  - Video Library: https://www.youtube.com/@qiachip
+  - Community: https://www.reddit.com/r/QIACHIP_Remote/
+ # - 版本管理: version-guide.md
 
 # ------------------------------
 # 版本管理配置（Version Management Configuration）
@@ -73,3 +82,8 @@ extra:
   version:
     provider: mike
     default: latest
+  # 启用版本选择器
+  # Enable version selector
+  versions:
+    - 1.0.0
+    - 2.0.0

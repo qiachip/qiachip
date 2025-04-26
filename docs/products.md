@@ -1,72 +1,81 @@
+---  
+glightbox: false  # 禁用当前页面的灯箱效果  
+---  
+# User Guide
+
 ## 12V DC Controller
 <!-- 页面主标题，用于展示产品列表 -->
 
 <style>
-/* 定义五列网格布局 */
+/* 定义自适应网格布局 */
 .product-list {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 0.8rem;
-  margin: 1.5rem 0;
+  gap: 15px;
+  margin: 1rem 0;
 }
 
 .product-list a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-decoration: none;
   color: inherit;
-  margin-bottom: 0.8rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 9px;
   transition: all 0.3s ease;
-  padding: 0.4rem;
-  border-radius: 4px;
-  aspect-ratio: 1/1;
-  min-height: 160px;
 }
 
 .product-list a:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 123, 255, 0.5);
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .product-list img {
-  width: 75%;
-  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
   height: auto;
-  object-fit: contain;
-  margin-bottom: 0.4rem;
+  margin-bottom: 15px;
 }
 
 .product-list h2 {
-  font-size: 1rem;
-  line-height: 1.2;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 100%;
+  color: #0066cc;
+  font-size: 18px;
+  font-weight: bold;
   text-align: center;
   margin: 0;
-  padding: 0.5rem 0;
+  padding: 0;
+}
+
+.product-list .model-alias {
+  color: #666;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 5px;
 }
 </style>
 <!-- 结束样式定义 -->
 
 <div class="product-list">
   <a href="../KR1201/KR1201/">
-    <img src="../KR1201/主图.jpg" alt="KR1201产品图片">
+    <img src="../KR1201/主图.jpg" alt="KR1201产品图片" >
     <h2>KR1201</h2>
+ 
   </a>
   
   <a href="../KR1202-V05/KR1202-V05/">
     <img src="../KR1202-V05/主图.jpg" alt="KR1202-V05产品图片">
     <h2>KR1202-V05</h2>
+    
   </a>
 
 </div>
 <!-- 结束网格布局 -->
 
-## 220V DC Controller
+## 220V AC Controller
 
 <div class="product-list">
 
@@ -74,6 +83,7 @@
   <a href="../KR2202/KR2202/">
     <img src="../KR2202/主图.jpg" alt="KR2202产品图片">
     <h2>KR2202</h2>
+
   </a>
 
 
