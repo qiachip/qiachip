@@ -1,0 +1,11 @@
+# QIACHIP Docs 项目依赖
+# 基础框架
+mkdocs==1.6.1
+mkdocs-material==9.5.15
+
+# 版本管理
+mike==2.1.3
+
+# 插件
+mkdocs-minify-plugin==0.7.2
+mkdocs-redirects==1.2.1
