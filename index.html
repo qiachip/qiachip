@@ -234,7 +234,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="https://www.youtube.com/@qiachip" class="md-tabs__link">
+      <a href="videoLibary/" class="md-tabs__link">
         
   
   
@@ -253,7 +253,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="https://www.reddit.com/r/QIACHIP_Remote/" class="md-tabs__link">
+      <a href="Community/" class="md-tabs__link">
         
   
   
@@ -500,7 +500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="https://www.youtube.com/@qiachip" class="md-nav__link">
+      <a href="videoLibary/" class="md-nav__link">
         
   
   
@@ -522,7 +522,7 @@
   
   
     <li class="md-nav__item">
-      <a href="https://www.reddit.com/r/QIACHIP_Remote/" class="md-nav__link">
+      <a href="Community/" class="md-nav__link">
         
   
   
@@ -610,6 +610,29 @@
   margin: 1rem 0;
 }
 
+/* 响应式布局 - 平板设备 (小于1024px) */
+@media (max-width: 1024px) {
+  .product-list {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+/* 响应式布局 - 手机设备 (小于768px) */
+@media (max-width: 768px) {
+  .product-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+  }
+}
+
+/* 响应式布局 - 小型手机设备 (小于480px) */
+@media (max-width: 480px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+}
+
 .product-list a {
   display: flex;
   flex-direction: column;
@@ -619,8 +642,9 @@
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 9px;
+  padding: 12px;
   transition: all 0.3s ease;
+  height: 100%;
 }
 
 .product-list a:hover {
@@ -634,6 +658,20 @@
   max-width: 100%;
   height: auto;
   margin-bottom: 15px;
+  object-fit: contain;
+}
+
+/* 响应式图片尺寸调整 */
+@media (max-width: 768px) {
+  .product-list img {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .product-list img {
+    max-height: 180px;
+  }
 }
 
 .product-list h2 {
@@ -673,14 +711,11 @@
 <h2 id="220v-ac-controller">220V AC Controller</h2>
 <div class="product-list">
 
-
   <a href="KR2202/KR2202/">
     <img src="KR2202/主图.jpg" alt="KR2202产品图片">
     <h2>KR2202</h2>
 
   </a>
-
-
 
 </div>
 
