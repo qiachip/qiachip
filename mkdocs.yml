@@ -21,6 +21,11 @@ site_author: QIACHIP Productions
 theme:
   name: material
   
+  # 图标配置
+  # Icon configuration
+  logo: images/qiachip-logo.png
+  favicon: images/qiachip-logo.svg
+    
   # 主题功能特性
   # Theme features
   features:
@@ -40,6 +45,7 @@ markdown_extensions:
   - md_in_html
   - pymdownx.superfences
   - admonition
+  - pymdownx.details
 
 # ------------------------------
 # 插件配置（Plugins Configuration）
@@ -49,8 +55,7 @@ markdown_extensions:
 plugins:
  - search
  - meta  
- - glightbox:
-    selector: img
+ - glightbox
 
 # 版权声明，显示在页面底部
 # Copyright notice, displayed at page footer
@@ -63,14 +68,14 @@ nav:
   # 一级导航菜单项：用户指南
   # First level nav item: User Guide
   - User Guide:
-    - Overview: products.md
+    - Overview: index.md
     - KR1201: KR1201/KR1201.md
     - KR1202: KR1202-V05/KR1202-V05.md
-    - KR2202: KR2202/KR2202.md
+    - KR2202: KR2202/QIACHIP_KR2202.md
   - FAQ: FAQ.md
-  - QIACHIP: https://www.qiachip.com
-  - Video Library: https://www.youtube.com/@qiachip
-  - Community: https://www.reddit.com/r/QIACHIP_Remote/
+  - QIACHIP: https://qiachip.com
+  - Video Library: videoLibary.md
+  - Community: Community.md
  # - 版本管理: version-guide.md
 
 # ------------------------------
