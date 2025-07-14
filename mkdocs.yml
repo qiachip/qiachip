@@ -69,8 +69,9 @@ nav:
   # First level nav item: User Guide
   - User Guide:
     - Overview: index.md
-    - KR1201A: KR1201A/KR1201A.md
+    - KR1201A: KR1201A/QIACHIP_KR1201A.md
     - KR2202: KR2202/QIACHIP_KR2202.md
+    - KR2402A: KR2402A/QIACHIP_KR2402A.md
   - FAQ: FAQ.md
   - QIACHIP: https://qiachip.com
   - Video Library: videoLibary.md

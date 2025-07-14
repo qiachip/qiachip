@@ -1,6 +1,6 @@
 # QIACHIP KR1201A Instruction Manual DC 12V 433MHz RF Remote Control Switch 1-CH Relay Receiver
 
-![QIACHIP KR1201A Product Diagram.webp](QIACHIP_KR1201A_Product_Diagram.webp)
+![QIACHIP KR1201A Product Diagram.webp](QIACHIP_KR1201A_Product_Diagram.webp){ width="50%" .center loading="lazy" }
 
 > Version: V1.0
 > 
@@ -11,40 +11,39 @@
 > Model: KR1201A
 > 
 
-# **Product** Size
+## Product Size
 
-![QIACHIP KR1201A Size Figure.webp](QIACHIP_KR1201A_Size_Figure.webp)
+![QIACHIP KR1201A Size Figure.webp](QIACHIP_KR1201A_Size_Figure.webp){ width="68%" .center loading="lazy" }
 
 - Receiver Length (L) × Width (W) × Height (H): 35mm × 30mm × 18mm
 - Housing Length (L) × Width (W) × Height (H): 40mm × 35mm × 25mm
 
-# **Component description**
+## Component description
 
-![QIACHIP KR1201A Component Description Figure.webp](QIACHIP_KR1201A_Component_Description_Figure.webp)
+![QIACHIP KR1201A Component Description Figure.webp](QIACHIP_KR1201A_Component_Description_Figure.webp){ width="50%" .center loading="lazy" }
 
-- 1: Indicator light
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <ul style="flex: 1 1 45%; margin-right: 1%;">
+    <li>1: Indicator light</li>
+    <li>2: Learning button</li>
+    <li>3: Antenna</li>
+    <li>+V: Positive input terminal</li>
+  </ul>
+  <ul style="flex: 1 1 45%; margin-left: 1%;">
+    <li>NO: Normally open terminal</li>
+    <li>COM: Common terminal</li>
+    <li>NC: Normally closed terminal</li>
+    <li>-V: Negative input terminal</li>
+  </ul>
+</div>
 
-- NO: Normally open terminal
-
-- 2: Learning button3: Antenna
-
-- COM: Common terminal
-
-- 3: Antenna
-
-- NC: Normally closed terminal
-
-- +V: Positive input terminal
-
-- -V: Negative input terminal
-
-# Wiring diagram
+## Wiring diagram
 
 Disconnect power before wiring.
 
-## Figure 1
+### Figure 1
 
-![QIACHIP KR1201A Wiring Diagram 1.webp](QIACHIP_KR1201A_Wiring_Diagram_1.webp)
+![QIACHIP KR1201A Wiring Diagram 1.webp](QIACHIP_KR1201A_Wiring_Diagram_1.webp){ width="50%" .center loading="lazy" }
 
 Figure 1: For door access switches or switches of other devices
 
@@ -54,9 +53,9 @@ Figure 1: For door access switches or switches of other devices
 
 ---
 
-## Figure 2
+### Figure 2
 
-![QIACHIP KR1201A Wiring Diagram 2.webp](QIACHIP_KR1201A_Wiring_Diagram_2.webp)
+![QIACHIP KR1201A Wiring Diagram 2.webp](QIACHIP_KR1201A_Wiring_Diagram_2.webp){ width="50%" .center loading="lazy" }
 
 Figure 2: Wiring diagram for DC motors
 
@@ -65,9 +64,9 @@ Figure 2: Wiring diagram for DC motors
 
 ---
 
-## Figure 3
+### Figure 3
 
-![QIACHIP KR1201A Wiring Diagram 3.webp](QIACHIP_KR1201A_Wiring_Diagram_3.webp)
+![QIACHIP KR1201A Wiring Diagram 3.webp](QIACHIP_KR1201A_Wiring_Diagram_3.webp){ width="50%" .center loading="lazy" }
 
 Figure 3: Wiring diagram for lamps
 
@@ -76,7 +75,7 @@ Figure 3: Wiring diagram for lamps
 
 ---
 
-# **Function description and setting method**
+## Function description and setting method
 
 **(1) Momentary mode; (2) Toggle mode; (3) Latching mode; (4) Delay mode; (5) Reset function.**
 
@@ -86,14 +85,14 @@ Figure 3: Wiring diagram for lamps
 - Once the receiver and transmitter are paired and a working mode is selected, the receiver will retain this mode even if powered off and on again.
 - The following working modes require the use of QIACHIP brand remote controls (transmitters) and controllers (receivers/wireless remote control switches). Compatibility with other brands is not guaranteed
 
-## **(1) Momentary mode**
+### **(1) Momentary mode**
 
  In this mode: 
 
 - Press and hold the remote control button (such as A), and the corresponding relay on the receiver is turned on.
 - Release the remote control button (such as A), and the corresponding relay on the receiver will turn off.
 
-## **How to set momentary mode**
+### **How to set momentary mode**
 
 **Step 1**
 
@@ -103,14 +102,14 @@ Click the learning button of the receiver once. The indicator light on the recei
 
 Press the button on the remote control (such as A) once. The indicator light on the receiver will flash and then turns off.The momentary mode is set successfully. 
 
-## **(2) Toggle mode**
+### **(2) Toggle mode**
 
 In this mode: 
 
 - Press the remote control button (such as A), and the corresponding relay on the receiver will turn on.
 - Press the remote control button (such as A) again, and the corresponding relay on the receiver will turn off.
 
-## **How to set toggle mode**
+### **How to set toggle mode**
 
 **Step 1**
 
@@ -120,14 +119,14 @@ Click the learning button of the receiver twice. The indicator light on the rece
 
 Press the button on the remote control (such as A) once. The indicator light on the receiver will flash and then turns off.The toggle mode is set successfully. 
 
-## **(3) Latching mode**
+### **(3) Latching mode**
 
 In this mode:
 
 - Press the remote control button (such as A), and the receiver's relay turns on.
 - Press the remote control button (such as B), and the receiver's relay turns off.
 
-## **How to set latching mode**
+### **How to set latching mode**
 
 **Step 1** 
 
@@ -141,15 +140,16 @@ Press the button on the remote control (such as A) once. The indicator light on 
 
 Within this period, press another button (such as B) on the same remote control. The indicator light on the receiver flashes and then turns off. The latching mode is set successfully. 
 
-## **(4) Delay mode**
+### **(4) Delay mode**
 
 In this mode:
 
 - Press the remote control button (such as A), and the corresponding relay of the receiver will enter delay mode.
 
-## How to set delay mode
+### How to set delay mode
 
 **Step 1** 
+
 Click the learning button of the receiver 4 times. The indicator light on the receiver turns on, and the receiver enters the setting state. 
 
 (Press the receiver button **4 times**: The corresponding relay will close after a 5-second delay);
@@ -164,15 +164,15 @@ Click the learning button of the receiver 4 times. The indicator light on the re
 
 Press the button on the remote control (such as A) once. The indicator light on the receiver will flash and then turns off. The delay mode is set successfully,
 
-## **(5) Reset function**
+### **(5) Reset function**
 
 - When the KR1201A receiver is reset, all paired transmitters will be unpaired and can no longer control the receiver.
 
-## How to Reset
+### How to Reset
 
 Click the learning button on the receiver 8 times. The reset is complete when the indicator light flashes and then turns off.
 
-# Electrical characteristics
+## Electrical characteristics
 
 | Parameter | Value |
 | --- | --- |
@@ -183,9 +183,9 @@ Click the learning button on the receiver 8 times. The reset is complete when th
 | Receiver sensitivity | -97dBm |
 | Operation mode | Momentary mode/Toggle mode/Latching mode/Delay mode |
 | Working temperature | -10℃~+80℃ |
-| Size | 35*30*18mm |
+| Size | 35x30x18mm |
 
-**Warning**
+## Warning
 
 - The positive and negative terminal wires must not be reversed
 - When using wireless electronic devices, avoid proximity to metal objects, large electronic equipment, electromagnetic fields, and other sources of strong interference

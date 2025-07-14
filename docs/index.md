@@ -97,19 +97,25 @@ glightbox: false  # 禁用当前页面的灯箱效果
 
 # User Guide
 
-## 12V DC Controller
+## DC Controller
 
 <div class="product-list">
 
-  <a href="KR1201A/KR1201A.md">
+  <a href="KR1201A/QIACHIP_KR1201A/">
     <img src="KR1201A/QIACHIP_KR1201A_Product_Diagram.webp" alt="KR1201A Product Image">
     <h2>KR1201A</h2>
     
   </a>
 
+  <a href="KR2402A/QIACHIP_KR2402A/">
+    <img src="KR2402A/QIACHIP_KR2402A_Product_Diagram.webp" alt="KR2402A Product Image">
+    <h2>KR2402A</h2>
+    
+  </a>
+
 </div>
 
-## 220V AC Controller
+## AC Controller
 
 <div class="product-list">
 
