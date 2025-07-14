@@ -13,27 +13,30 @@
 
 ## Product Size
 
-![QIACHIP KR2202 Size Figure](QIACHIP_KR2202_Size_Figure.webp){ width="50%" .center loading="lazy" }
+![QIACHIP KR2202 Size Figure](QIACHIP_KR2202_Size_Figure.webp){ width="68%" .center loading="lazy" }
+
+- Receiver Length (L) × Width (W) × Height (H): 68mm × 48mm × 20mm
+- Housing Length (L) × Width (W) × Height (H): 75mm × 54mm × 25mm
+- Receiver hole horizontal spacing: 60mm; Vertical spacing: 42mm; Hole Diameter: Ø5mm
 
 ## Component description
 
 ![QIACHIP KR2202 Component Description Figure](QIACHIP_KR2202_Component_Description_Figure.webp){ width="50%" .center loading="lazy" }
 
-- 1: Learning button
-
-- 2: Indicator light
-
-- 3: Antenna
-
-- NO: Normally open terminal
-
-- NC: Normally closed terminal
-
-- COM: Common terminal
-
-- L: Live wire
-
-- N: Neutral wire
+<div style="display: flex; flex-wrap: wrap; justify-content: space-around;">
+  <ul style="flex: 1 1 45%; margin-right: 1%;">
+    <li>1: Learning button</li>
+    <li>3: Antenna</li>
+    <li>NC: Normally closed terminal</li>
+    <li>L: Live wire</li>
+  </ul>
+  <ul style="flex: 1 1 45%; margin-left: 1%;">
+    <li>2: Indicator light</li>
+    <li>NO: Normally open terminal</li>
+    <li>COM: Common terminal</li>
+    <li>N: Neutral wire</li>
+  </ul>
+</div>
 
 ## Wiring diagram
 

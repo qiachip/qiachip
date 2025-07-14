@@ -1,10 +1,6 @@
 ---  
 glightbox: false  # 禁用当前页面的灯箱效果  
 ---  
-# User Guide
-
-## 12V DC Controller
-<!-- 页面主标题，用于展示产品列表 -->
 
 <style>
 /* 定义自适应网格布局 */
@@ -97,23 +93,21 @@ glightbox: false  # 禁用当前页面的灯箱效果
   margin-top: 5px;
 }
 </style>
-<!-- 结束样式定义 -->
+
+
+# User Guide
+
+## 12V DC Controller
 
 <div class="product-list">
-  <a href="KR1201/KR1201/">
-    <img src="KR1201/主图.jpg" alt="KR1201产品图片" >
-    <h2>KR1201</h2>
- 
-  </a>
-  
-  <a href="KR1202-V05/KR1202-V05/">
-    <img src="KR1202-V05/主图.jpg" alt="KR1202-V05产品图片">
-    <h2>KR1202-V05</h2>
+
+  <a href="KR1201A/KR1201A.md">
+    <img src="KR1201A/QIACHIP_KR1201A_Product_Diagram.webp" alt="KR1201A Product Image">
+    <h2>KR1201A</h2>
     
   </a>
 
 </div>
-<!-- 结束网格布局 -->
 
 ## 220V AC Controller
 
