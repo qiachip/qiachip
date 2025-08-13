@@ -107,9 +107,21 @@ glightbox: false  # 禁用当前页面的灯箱效果
     
   </a>
 
+  <a href="KR3001A/QIACHIP_KR3001A/">
+    <img src="KR3001A/KR3001A_Product_Diagram.webp" alt="KR3001A Product Image">
+    <h2>KR3001A</h2>
+    
+  </a>
+
   <a href="KR2402A/QIACHIP_KR2402A/">
     <img src="KR2402A/QIACHIP_KR2402A_Product_Diagram.webp" alt="KR2402A Product Image">
     <h2>KR2402A</h2>
+    
+  </a>
+
+  <a href="KR1204/QIACHIP_KR1204/">
+    <img src="KR1204/KR1204_Product_Diagram.webp" alt="KR1204 Product Image">
+    <h2>KR1204</h2>
     
   </a>
 
@@ -122,6 +134,12 @@ glightbox: false  # 禁用当前页面的灯箱效果
   <a href="KR2202/QIACHIP_KR2202/">
     <img src="KR2202/QIACHIP_KR2202_Product_Display_Figure.webp" alt="KR2202 Product Image">
     <h2>KR2202</h2>
+    
+  </a>
+
+  <a href="KR2201-4/QIACHIP_KR2201-4/">
+    <img src="KR2201-4/KR2201-4_Product_Diagram.webp" alt="KR2201-4 Product Image">
+    <h2>KR2201-4</h2>
     
   </a>
 

@@ -70,8 +70,11 @@ nav:
   - User Guide:
     - Overview: index.md
     - KR1201A: KR1201A/QIACHIP_KR1201A.md
+    - KR3001A: KR3001A/QIACHIP_KR3001A.md
     - KR2202: KR2202/QIACHIP_KR2202.md
+    - KR2201-4: KR2201-4/QIACHIP_KR2201-4.md
     - KR2402A: KR2402A/QIACHIP_KR2402A.md
+    - KR1204: KR1204/QIACHIP_KR1204.md
   - FAQ: FAQ.md
   - QIACHIP: https://qiachip.com
   - Video Library: videoLibary.md
