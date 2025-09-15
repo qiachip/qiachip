@@ -1,6 +1,6 @@
----  
-glightbox: false  # 禁用当前页面的灯箱效果  
----  
+---
+glightbox: false  # 禁用当前页面的灯箱效果
+---
 
 <style>
 /* 定义自适应网格布局 */

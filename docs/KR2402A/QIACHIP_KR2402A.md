@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # QIACHIP KR2402A Instruction Manual DC 5V-60V 433MHz RF Remote Control Switch 2-CH Relay Receiver
 
 ![QIACHIP KR2402A Product Diagram.webp](QIACHIP_KR2402A_Product_Diagram.webp){ width="50%" .center loading="lazy" }

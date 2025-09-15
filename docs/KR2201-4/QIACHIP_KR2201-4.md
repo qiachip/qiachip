@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # QIACHIP KR2201-4 Instruction Manual AC 110V 220V 433MHz RF Remote Control Switch 1-CH Relay Receiver
 
 ![KR2201-4 Product Diagram.webp](KR2201-4_Product_Diagram.webp){ width="50%" .center loading="lazy" }

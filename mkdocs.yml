@@ -20,6 +20,7 @@ site_author: QIACHIP Productions
 # Using Material for MkDocs theme
 theme:
   name: material
+  custom_dir: docs/overrides
   
   # 图标配置
   # Icon configuration
@@ -34,6 +35,7 @@ theme:
     - navigation.tabs    # 启用标签式导航
     - navigation.tabs.sticky
     - navigation.top     # 启用顶部导航栏
+    # - content.comments   # 启用评论功能
 
 # 引入自定义 CSS 文件，实现精细隐藏父级菜单项
 extra_css:
@@ -78,7 +80,7 @@ nav:
   - FAQ: FAQ.md
   - QIACHIP: https://qiachip.com
   - Video Library: videoLibary.md
-  - Community: Community.md
+#  - Community: Community.md
  # - 版本管理: version-guide.md
 
 # ------------------------------
@@ -87,11 +89,24 @@ nav:
 # 使用mike插件进行版本管理
 # Using mike plugin for version management
 extra:
-  version:
-    provider: mike
-    default: latest
-  # 启用版本选择器
-  # Enable version selector
-  versions:
-    - 1.0.0
-    - 2.0.0
+  # version:
+  #   provider: mike
+  #   default: latest
+  # # 启用版本选择器
+  # # Enable version selector
+  # versions:
+  #   - 1.0.0
+  #   - 2.0.0
+  comments:
+    provider: giscus
+    repo: qiachip/qiachip
+    repo_id: R_kgDOOgCmnw
+    category: Show and tell
+    category_id: DIC_kwDOOgCmn84CvR8B
+    mapping: pathname
+    strict: 0
+    reactions_enabled: 1
+    input_position: bottom
+    theme: preferred_color_scheme
+    lang: zh-CN
+    lazy_loading: true

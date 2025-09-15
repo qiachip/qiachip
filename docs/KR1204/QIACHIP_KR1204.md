@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # QIACHIP KR1204 Instruction Manual DC 12V 433MHz RF Remote Control Switch 4-CH Relay Receiver
 
 ![KR1204 Product Diagram.webp](KR1204_Product_Diagram.webp){ width="50%" .center loading="lazy" }

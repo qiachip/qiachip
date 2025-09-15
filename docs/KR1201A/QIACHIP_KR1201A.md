@@ -1,3 +1,8 @@
+---
+comments: true
+---
+
+
 # QIACHIP KR1201A Instruction Manual DC 12V 433MHz RF Remote Control Switch 1-CH Relay Receiver
 
 ![QIACHIP KR1201A Product Diagram.webp](QIACHIP_KR1201A_Product_Diagram.webp){ width="50%" .center loading="lazy" }

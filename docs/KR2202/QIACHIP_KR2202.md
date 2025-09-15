@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # QIACHIP KR2202 Instruction Manual AC 110V 220V 433MHz RF Remote Control Switch 2-CH Relay Receiver
 
 ![QIACHIP KR2202 Product Display Figure](QIACHIP_KR2202_Product_Display_Figure.webp){ width="50%" .center loading="lazy" }

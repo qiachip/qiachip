@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # QIACHIP KR3001A Instruction Manual DC 5V-60V 433MHz RF Remote Control Switch 1-CH Relay Receiver
 
 ![KR3001A Product Diagram.webp](KR3001A_Product_Diagram.webp){ width="50%" .center loading="lazy" }
