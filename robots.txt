@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://qiachip.github.io/sitemap.xml
+Sitemap: https://qiachip.github.io/qiachip/sitemap.xml
