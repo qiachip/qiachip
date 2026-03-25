@@ -5,7 +5,19 @@ Learn about our products and use them through videos.
 To watch more videos, visit the [QIACHIP YouTube channel](https://www.youtube.com/@qiachip).
 ## Product Categories
 
-### RF Remote Control Modules
+<div class="grid cards" markdown>
+
+- **KR2201 Series**
+    - [AC 85V-250V Multimode Learning Wireless Remote Control Switch 1CH Relay Receiver Module](https://youtube.com/watch?v=xLTEAOBa5gY)
+    - [AC 220V Multimode Learning Wireless Remote Control Switch 1-channel Relay Receiver Module](https://youtube.com/watch?v=NoEDLP5B5yk)
+    - [How to Install a Smart Home Light Switch - WiFi smart switch with RF 433Mhz remote control function](https://youtube.com/watch?v=5DMuZEyU0Bg)
+    - [AC 220V Learning Code Wireless Remote Control Switch 1-channel Relay Receiver Module](https://youtube.com/watch?v=PFpoo9pg7d8)
+    - [RODOT | NEW 10A Wifi Smart Switch Timer Wireless Switches Smart Home Automation for TUYA Smart Life](https://youtube.com/watch?v=35dXisBhE3M)
+    - [Tuya smart switch Tuya smart home Wifi smart switch smart life support Amazon Alexa Google assistant](https://youtube.com/watch?v=pYaz8Dctlig)
+    - [How to Use Wireless Remote Control Switch KR2201B 220V 110V Relay Switch to Control Fan and Light](https://youtube.com/watch?v=MeZD74C9iC4)
+    - [How to Use Smart Light Switch Connect Tuya Smart to Alexa & Google Assistant SmartLife App KR2201WB](https://youtube.com/watch?v=k-ltsrb72iQ)
+
+</div>
 
 <div class="grid cards" markdown>
 

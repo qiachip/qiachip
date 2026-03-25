@@ -81,7 +81,7 @@ Details of the 433MHz antenna are as follows:
 | Working temperature | -40~85℃ |
 | Size | 30x9.5x1mm |
 
-### NOTE
+## NOTE
 
 1. This product is a CMOS device. Please take anti-static precautions during storage, transportation and operation.
 2. Ensure proper grounding when using the device.

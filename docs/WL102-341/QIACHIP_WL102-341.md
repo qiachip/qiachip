@@ -60,7 +60,7 @@ For general applications, the antenna can directly adopt market-available standa
 | Working temperature | -40~85℃ |
 | Size | 17.51x13.25x1mm |
 
-### NOTE
+## NOTE
 
 1. This product is a CMOS device. Anti-static precautions must be taken during storage, transportation and operation.
 2. Ensure reliable grounding when the device is in use.
