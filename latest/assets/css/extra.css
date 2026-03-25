@@ -1,0 +1,4 @@
+/* 隐藏包含嵌套子菜单的父级菜单项 */
+.md-nav__item .md-nav__item--active .md-nav__item--section .md-nav__item--nested:not(.md-nav__link) {
+    display: none !important;
+}
