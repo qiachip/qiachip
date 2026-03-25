@@ -32,12 +32,12 @@ comments: true
     <li>2: Learning button</li>
     <li>3: Indicator light</li>
     <li>+V: Positive input terminal</li>
+    <li>-V: Negative input terminal</li>
   </ul>
   <ul style="flex: 1 1 45%; margin-left: 1%;">
     <li>NO: Normally open terminal</li>
     <li>COM: Common terminal</li>
     <li>NC: Normally closed terminal</li>
-    <li>-V: Negative input terminal</li>
   </ul>
 </div>
 

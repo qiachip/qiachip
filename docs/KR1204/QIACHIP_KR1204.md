@@ -186,17 +186,13 @@ The Momentary mode channels (Channel 1, Channel 2) and Toggle mode channels (Cha
 
 For the two channels set to Momentary mode (Channel 1 and Channel 2):
 
-- Press and hold the remote control button corresponding to relay channel 1 (such as A), and relay channel 1 on the receiver will turn on;
-- Release button A, and relay channel 1 will turn off.
-- Press and hold the remote control button corresponding to relay channel 2 (such as B), and relay channel 2 on the receiver will turn on;
-- Release button B, and relay channel 2 will turn off.
+- Press and hold the remote control button corresponding to relay channel 1 (such as A), and relay channel 1 on the receiver will turn on; release button A, and relay channel 1 will turn off.
+- Press and hold the remote control button corresponding to relay channel 2 (such as B), and relay channel 2 on the receiver will turn on; release button B, and relay channel 2 will turn off.
 
 For the two channels set to Toggle mode (Channel 3 and Channel 4):
 
-- Press the remote control button corresponding to relay channel 3 (such as C), and relay channel 3 on the receiver will turn on;
-- Press the remote control button C again, and relay channel 3 will turn off.
-- Press the remote control button corresponding to relay channel 4 (such as D), and relay channel 4 on the receiver will turn on;
-- Press the remote control button D again, and relay channel 4 will turn off.
+- Press the remote control button corresponding to relay channel 3 (such as C), and relay channel 3 on the receiver will turn on; Press the remote control button C again, and relay channel 3 will turn off.
+- Press the remote control button corresponding to relay channel 4 (such as D), and relay channel 4 on the receiver will turn on; Press the remote control button D again, and relay channel 4 will turn off.
 
 ### **How to set 2CH Momentary mode + 2CH Toggle mode mode**
 
@@ -216,10 +212,8 @@ The Momentary mode channels (Channel 1, Channel 2) and Latching mode channels (C
 
 For the two channels set to Momentary mode (Channel 1 and Channel 2):
 
-- Press and hold the remote control button corresponding to relay channel 1 (such as A), and relay channel 1 on the receiver will turn on;
-- Release button A, and relay channel 1 will turn off.
-- Press and hold the remote control button corresponding to relay channel 2 (such as B), and relay channel 2 on the receiver will turn on;
-- Release button B, and relay channel 2 will turn off.
+- Press and hold the remote control button corresponding to relay channel 1 (such as A), and relay channel 1 on the receiver will turn on; release button A, and relay channel 1 will turn off.
+- Press and hold the remote control button corresponding to relay channel 2 (such as B), and relay channel 2 on the receiver will turn on; release button B, and relay channel 2 will turn off.
 
 For the two channels set to Latching mode (Channel 3 and Channel 4):
 
@@ -244,10 +238,8 @@ The Toggle mode channels (Channel 1, Channel 2) and Latching mode channels (Chan
 
 For the two channels set to Toggle mode (Channel 1 and Channel 2):
 
-- Press the remote control button corresponding to relay channel 1 (such as A), and relay channel 1 on the receiver will turn on;
-- Press the remote control button A again, and relay channel 1 will turn off.
-- Press the remote control button corresponding to relay channel 2 (such as B), and relay channel 2 on the receiver will turn on;
-- Press the remote control button B again, and relay channel 2 will turn off.
+- Press the remote control button corresponding to relay channel 1 (such as A), and relay channel 1 on the receiver will turn on; Press the remote control button A again, and relay channel 1 will turn off.
+- Press the remote control button corresponding to relay channel 2 (such as B), and relay channel 2 on the receiver will turn on; Press the remote control button B again, and relay channel 2 will turn off.
 
 For the two channels set to Latching mode (Channel 3 and Channel 4):
 
@@ -300,7 +292,7 @@ Press the button on the remote control (such as A) once. The indicator light on 
 | Rated Load | Max 120W per channel (4 channels total) |
 | Receiver sensitivity | -104dBm |
 | Normal Modes | Momentary mode;     Toggle mode;                            Latching mode;          Reset function; |
-| Combination Modes | 2CH Momentary mode + 2CH Toggle mode<br>2CH Momentary mode + 2CH Latching mode<br>2CH Toggle mode + 2CH Latching mode<br>2CH Latching mode + 2CH Latching mode |
+| Combination Modes | 2CH Momentary mode + 2CH Toggle mode;         2CH Momentary mode + 2CH Latching mode;           2CH Toggle mode + 2CH Latching mode;                  2CH Latching mode + 2CH Latching mode; |
 | Working temperature | -10℃~80℃ |
 | Size | 68x48x20mm |
 

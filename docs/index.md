@@ -1,6 +1,6 @@
----
-glightbox: false  # 禁用当前页面的灯箱效果
----
+---  
+glightbox: false  # 禁用当前页面的灯箱效果  
+---  
 
 <style>
 /* 定义自适应网格布局 */
@@ -107,9 +107,21 @@ glightbox: false  # 禁用当前页面的灯箱效果
     
   </a>
 
-  <a href="KR3001A/QIACHIP_KR3001A/">
-    <img src="KR3001A/KR3001A_Product_Diagram.webp" alt="KR3001A Product Image">
-    <h2>KR3001A</h2>
+  <a href="KR1204/QIACHIP_KR1204/">
+    <img src="KR1204/KR1204_Product_Diagram.webp" alt="KR1204 Product Image">
+    <h2>KR1204</h2>
+    
+  </a>
+
+  <a href="KR1204B/QIACHIP_KR1204B/">
+    <img src="KR1204B/QIACHIP_KR1204B_Product_Diagram.webp" alt="KR1204B Product Image">
+    <h2>KR1204B</h2>
+    
+  </a>
+
+  <a href="KR2401FB/QIACHIP_KR2401FB/">
+    <img src="KR2401FB/QIACHIP_KR2401FB_Product_Diagram.webp" alt="KR2401FB Product Image">
+    <h2>KR2401FB</h2>
     
   </a>
 
@@ -119,9 +131,9 @@ glightbox: false  # 禁用当前页面的灯箱效果
     
   </a>
 
-  <a href="KR1204/QIACHIP_KR1204/">
-    <img src="KR1204/KR1204_Product_Diagram.webp" alt="KR1204 Product Image">
-    <h2>KR1204</h2>
+  <a href="KR3001A/QIACHIP_KR3001A/">
+    <img src="KR3001A/KR3001A_Product_Diagram.webp" alt="KR3001A Product Image">
+    <h2>KR3001A</h2>
     
   </a>
 
@@ -131,15 +143,93 @@ glightbox: false  # 禁用当前页面的灯箱效果
 
 <div class="product-list">
 
+  <a href="KR2201-4/QIACHIP_KR2201-4/">
+    <img src="KR2201-4/QIACHIP_KR2201-4_Product_Diagram.webp" alt="KR2201-4 Product Image">
+    <h2>KR2201-4</h2>
+    
+  </a>
+
+  <a href="KR2201-COM/QIACHIP_KR2201-COM/">
+    <img src="KR2201-COM/QIACHIP_KR2201-COM_Product_Diagram.webp" alt="KR2201-COM Product Image">
+    <h2>KR2201-COM</h2>
+    
+  </a>
+
   <a href="KR2202/QIACHIP_KR2202/">
-    <img src="KR2202/QIACHIP_KR2202_Product_Display_Figure.webp" alt="KR2202 Product Image">
+    <img src="KR2202/QIACHIP_KR2202_Product_Diagram.webp" alt="KR2202 Product Image">
     <h2>KR2202</h2>
     
   </a>
 
-  <a href="KR2201-4/QIACHIP_KR2201-4/">
-    <img src="KR2201-4/KR2201-4_Product_Diagram.webp" alt="KR2201-4 Product Image">
-    <h2>KR2201-4</h2>
+  <a href="KR2204/QIACHIP_KR2204/">
+    <img src="KR2204/QIACHIP_KR2204_Product_Diagram.webp" alt="KR2204 Product Image">
+    <h2>KR2204</h2>
+    
+  </a>
+
+  <a href="KR2201G/QIACHIP_KR2201G/">
+    <img src="KR2201G/QIACHIP_KR2201G_Product_Diagram.webp" alt="KR2201G Product Image">
+    <h2>KR2201G</h2>
+    
+  </a>
+
+</div>
+
+## Ceiling Fan Light Controller
+
+<div class="product-list">
+
+  <a href="FLC05-E110V/QIACHIP_FLC05-E110V/">
+    <img src="FLC05-E110V/QIACHIP_FLC05-110V_Product_Diagram.webp" alt="FLC05-E110V Product Image">
+    <h2>FLC05-E110V</h2>
+    
+  </a>
+
+  <a href="FLC05-E220V/QIACHIP_FLC05-E220V/">
+    <img src="FLC05-E220V/QIACHIP_FLC05-220V_Product_Diagram.webp" alt="FLC05-E220V Product Image">
+    <h2>FLC05-E220V</h2>
+    
+  </a>
+
+</div>
+
+## Wireless Receiver Module
+
+<div class="product-list">
+
+  <a href="RX470-4/QIACHIP_RX470-4/">
+    <img src="RX470-4/QIACHIP_RX470-4_Product_Diagram.webp" alt="RX470-4 Product Image">
+    <h2>RX470-4</h2>
+    
+  </a>
+
+  <a href="QA-R-011/QIACHIP_QA-R-011/">
+    <img src="QA-R-011/QIACHIP_QA-R-011_Product_Diagram.webp" alt="QA-R-011 Product Image">
+    <h2>QA-R-011</h2>
+    
+  </a>
+
+  <a href="QA-R-012/QIACHIP_QA-R-012/">
+    <img src="QA-R-012/QIACHIP_QA-R-012_Product_Diagram.webp" alt="QA-R-012 Product Image">
+    <h2>QA-R-012</h2>
+    
+  </a>
+
+  <a href="QA-R-012V3/QIACHIP_QA-R-012V3/">
+    <img src="QA-R-012V3/QIACHIP_QA-R-012V3_Product_Diagram.webp" alt="QA-R-012V3 Product Image">
+    <h2>QA-R-012V3</h2>
+    
+  </a>
+
+</div>
+
+## Wireless Transmitter Module
+
+<div class="product-list">
+
+  <a href="WL102-341/QIACHIP_WL102-341/">
+    <img src="WL102-341/QIACHIP_WL102_Product_Diagram.webp" alt="WL102-341 Product Image">
+    <h2>WL102-341</h2>
     
   </a>
 

@@ -15,13 +15,16 @@ site_description: Documentation for QIACHIP Productions
 # Site author information, usually displayed in footer
 site_author: QIACHIP Productions
 
+# 站点URL，用于生成绝对路径和sitemap
+# Site URL, used for generating absolute paths and sitemap
+site_url: https://qiachip.github.io/qiachip/
+
 # 主题配置 (Theme Configuration)
 # 使用Material for MkDocs主题
 # Using Material for MkDocs theme
 theme:
   name: material
   custom_dir: docs/overrides
-  
   # 图标配置
   # Icon configuration
   logo: images/qiachip-logo.png
@@ -35,7 +38,7 @@ theme:
     - navigation.tabs    # 启用标签式导航
     - navigation.tabs.sticky
     - navigation.top     # 启用顶部导航栏
-    # - content.comments   # 启用评论功能
+    - content.comments   # 启用评论功能
 
 # 引入自定义 CSS 文件，实现精细隐藏父级菜单项
 extra_css:
@@ -61,7 +64,7 @@ plugins:
 
 # 版权声明，显示在页面底部
 # Copyright notice, displayed at page footer
-copyright: Copyright &copy; 2025 QIACHIP
+copyright: Copyright &copy; 2026 QIACHIP
 
 # 导航配置 (Navigation Configuration)
 # 定义网站导航菜单结构
@@ -72,15 +75,59 @@ nav:
   - User Guide:
     - Overview: index.md
     - KR1201A: KR1201A/QIACHIP_KR1201A.md
-    - KR3001A: KR3001A/QIACHIP_KR3001A.md
-    - KR2202: KR2202/QIACHIP_KR2202.md
-    - KR2201-4: KR2201-4/QIACHIP_KR2201-4.md
-    - KR2402A: KR2402A/QIACHIP_KR2402A.md
+    - KR1201C: KR1201C/QIACHIP_KR1201C.md
+    - KR1202-30R: KR1202-30R/QIACHIP_KR1202-30R.md
+    - KR1202-V05: KR1202-V05/QIACHIP_KR1202-V05.md
     - KR1204: KR1204/QIACHIP_KR1204.md
+    - KR1204B: KR1204B/QIACHIP_KR1204B.md
+    - KR2201-4: KR2201-4/QIACHIP_KR2201-4.md
+    - KR2201B-4: KR2201B-4/QIACHIP_KR2201B-4.md
+    - KR2201BL-4: KR2201BL-4/QIACHIP_KR2201BL-4.md
+    - KR2201BY: KR2201BY/QIACHIP_KR2201BY.md
+    - KR2201-COM: KR2201-COM/QIACHIP_KR2201-COM.md
+    - KR2201DA-4: KR2201DA-4/QIACHIP_KR2201DA-4.md
+    - KR2201F-4: KR2201F-4/QIACHIP_KR2201F-4.md
+    - KR2201G-4: KR2201G-4/QIACHIP_KR2201G-4.md
+    - KR2201GS-4: KR2201GS-4/QIACHIP_KR2201GS-4.md
+    - KR2201W-4: KR2201W-4/QIACHIP_KR2201W-4.md
+    - KR2201WB: KR2201WB/QIACHIP_KR2201WB.md
+    - KR2301-4: KR2301-4/QIACHIP_KR2301-4.md
+    - KR2301MT: KR2301MT/QIACHIP_KR2301MT.md
+    - KR2303: KR2303/QIACHIP_KR2303.md
+    - KR2305: KR2305/QIACHIP_KR2305.md
+    - KR2306EW: KR2306EW/QIACHIP_KR2306EW.md
+    - KR2202: KR2202/QIACHIP_KR2202.md
+    - KR2204: KR2204/QIACHIP_KR2204.md
+    - KR2401FB: KR2401FB/QIACHIP_KR2401FB.md
+    - KR2401F-4: KR2401F-4/QIACHIP_KR2401F-4.md
+    - KR2402A: KR2402A/QIACHIP_KR2402A.md
+    - KR0548-1CH: KR0548-1CH/QIACHIP_KR0548-1CH.md
+    - KR0548-2CH: KR0548-2CH/QIACHIP_KR0548-2CH.md
+    - KR0548-4CH: KR0548-4CH/QIACHIP_KR0548-4CH.md
+    - KR3001A: KR3001A/QIACHIP_KR3001A.md
+    - QA-R-011: QA-R-011/QIACHIP_QA-R-011.md
+    - QA-R-012: QA-R-012/QIACHIP_QA-R-012.md
+    - QA-R-012V3: QA-R-012V3/QIACHIP_QA-R-012V3.md
+    - RX470-4: RX470-4/QIACHIP_RX470-4.md
+    - WL102-341: WL102-341/QIACHIP_WL102-341.md
+    - FLC05-E110V: FLC05-E110V/QIACHIP_FLC05-E110V.md
+    - FLC05-E220V: FLC05-E220V/QIACHIP_FLC05-E220V.md
+    - MTD12A-4: MTD12A-4/QIACHIP_MTD12A-4.md
+    - RX217E-V01: RX217E-V01/QIACHIP_RX217E-V01.md
+    - RX480E-1A: RX480E-1A/QIACHIP_RX480E-1A.md
+    - RX480E-4C: RX480E-4C/QIACHIP_RX480E-4C.md
+    - RX480E-868: RX480E-868/QIACHIP_RX480E-868.md
+    - RX500-4: RX500-4/QIACHIP_RX500-4.md
+    - RX18210A-4: RX18210A-4/QIACHIP_RX18210A-4.md
+    - RX18211A-4: RX18211A-4/QIACHIP_RX18211A-4.md
+    - TX118SA-4: TX118SA-4/QIACHIP_TX118SA-4.md
+    - TX181-4: TX181-4/QIACHIP_TX181-4.md
+    - WL101-341: WL101-341/QIACHIP_WL101-341.md
   - FAQ: FAQ.md
   - QIACHIP: https://qiachip.com
-  - Video Library: videoLibary.md
-#  - Community: Community.md
+  - Video Library: https://qiachip.github.io/qiachip-videos/
+ # - Community: Community.md
+
  # - 版本管理: version-guide.md
 
 # ------------------------------
@@ -89,24 +136,13 @@ nav:
 # 使用mike插件进行版本管理
 # Using mike plugin for version management
 extra:
-  # version:
-  #   provider: mike
-  #   default: latest
-  # # 启用版本选择器
-  # # Enable version selector
-  # versions:
-  #   - 1.0.0
-  #   - 2.0.0
-  comments:
-    provider: giscus
-    repo: qiachip/qiachip
-    repo_id: R_kgDOOgCmnw
-    category: Show and tell
-    category_id: DIC_kwDOOgCmn84CvR8B
-    mapping: pathname
-    strict: 0
-    reactions_enabled: 1
-    input_position: bottom
-    theme: preferred_color_scheme
-    lang: zh-CN
-    lazy_loading: true
+  version:
+    provider: mike
+    default: latest
+  # 启用版本选择器
+  # Enable version selector
+  versions:
+    - 1.0.0
+    - 2.0.0
+
+
