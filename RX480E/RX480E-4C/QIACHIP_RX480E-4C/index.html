@@ -1139,12 +1139,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../KR2301/KR2301-4/QIACHIP_KR2301-4/" class="md-nav__link">
+      <a href="../../../KR2301/KR2301/QIACHIP_KR2301/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    KR2301-4
+    KR2301
     
   </span>
   
@@ -2620,7 +2620,7 @@
 <p><a class="glightbox" href="../QIACHIP_RX480E-4C_Product_Diagram.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="QIACHIP RX480E-4C Product Diagram.webp" class="center" loading="lazy" src="../QIACHIP_RX480E-4C_Product_Diagram.webp" width="50%" /></a></p>
 <blockquote>
 <p>Version: V1.0</p>
-<p>Last Updated: 2026-2-27</p>
+<p>Last Updated: 2026-5-8</p>
 <p>Model: RX480E-4C ( RX480E Series )</p>
 </blockquote>
 <h2 id="product-size">Product Size</h2>
@@ -2637,12 +2637,12 @@
     <li>2: Indicator light</li>
     <li>3: Learning button</li>
     <li>4: VT (External Key Input Pin)</li>
-    <li>5: D3 Signal output pin corresponds to remote control button value 8（1000）</li>
+    <li>5: D3 Signal output pin corresponds to remote control button value 1 (0001)</li>
   </ul>
   <ul style="flex: 1 1 45%; margin-left: 1%;">
-    <li>6: D2 Signal output pin corresponds to remote control button value 4（0100）</li>
-    <li>7: D1 Signal output pin corresponds to remote control button value 2（0010）</li>
-    <li>8: D0 Signal output pin corresponds to remote control button value 1（0001）</li>
+    <li>6: D2 Signal output pin corresponds to remote control button value 2 (0010)</li>
+    <li>7: D1 Signal output pin corresponds to remote control button value 4 (0100)</li>
+    <li>8: D0 Signal output pin corresponds to remote control button value 8 (1000)</li>
     <li>9: V+ (Positive Power Input Pin)</li>
     <li>10: GND- (Power Ground Pin)</li>
   </ul>
@@ -2689,8 +2689,7 @@
 <h3 id="3-latching-mode">(3) Latching mode</h3>
 <p>In this mode:</p>
 <ul>
-<li>Press the "A" button on the remote control once, and pin D3 of the receiver module will continuously output a high-level signal "1".</li>
-<li>Press the "B" button on the remote control once, and the output signal of pin D3 of the receiver module will change to "0", then pin D2 of the receiver module will continuously output a high-level signal "1".</li>
+<li>When the corresponding button on the remote control is pressed once, the corresponding pin on the RX480E continuously outputs a high-level signal "1", while the output signal of the other pins changes to "0".</li>
 </ul>
 <h3 id="how-to-set-latching-mode">How to set latching mode</h3>
 <p><strong>Step 1</strong></p>
