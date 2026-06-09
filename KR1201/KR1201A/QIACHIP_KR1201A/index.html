@@ -711,6 +711,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#frequently-asked-questionsqa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frequently Asked Questions（Q&amp;A）
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2606,6 +2615,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#frequently-asked-questionsqa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frequently Asked Questions（Q&amp;A）
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2794,6 +2812,85 @@
 <li>The positive and negative terminal wires must not be reversed</li>
 <li>When using wireless electronic devices, avoid proximity to metal objects, large electronic equipment, electromagnetic fields, and other sources of strong interference</li>
 </ul>
+<h2 id="frequently-asked-questionsqa">Frequently Asked Questions（Q&amp;A）</h2>
+<p><strong>Q1: Does KR1201A support momentary mode?</strong></p>
+<p><strong>A:</strong> Yes. KR1201A supports momentary mode. In momentary mode, the relay is activated only while the remote button is pressed. When the button is released, the relay turns off.</p>
+<p>KR1201A also supports other working modes, such as self-locking mode and interlocking mode. Select the mode according to your application.</p>
+<p><strong>Q2: What happens in momentary mode if the remote moves out of signal range while the button is being held?</strong></p>
+<p><strong>A:</strong> In momentary mode, moving the remote out of signal range is equivalent to releasing the remote button. The relay will turn off when the receiver no longer receives the signal.</p>
+<p><strong>Q3: Which mode should I use if I want to reduce battery consumption?</strong></p>
+<p><strong>A:</strong> The receiver consumes a small amount of power while in standby as long as it is connected to power. Momentary mode can reduce the active working time, which may help extend battery life in some applications.</p>
+<p>For longer operating time, use a suitable large-capacity battery or a stable 12V DC power supply.</p>
+<p><strong>Q4: Will KR1201A lose the paired remote controls or working mode after power loss?</strong></p>
+<p><strong>A:</strong> No. KR1201A has memory function. After the remote controls and working mode are correctly paired and set, they will not be lost when the power is disconnected.</p>
+<p>After power is restored, the receiver can continue working with the previously saved remote controls and mode, unless the receiver has been reset.</p>
+<p><strong>Q5: Does toggle mode need to be set again after power loss?</strong></p>
+<p><strong>A:</strong> No. If KR1201A has been set to toggle mode, the receiver will remember this mode after power loss. It does not need to be paired or programmed again after power is restored.</p>
+<p><strong>Q6: Can one KR1201A receiver be paired with more than one remote control?</strong></p>
+<p><strong>A:</strong> Yes. One KR1201A receiver can be paired with multiple remote controls. Pair the first remote control, then repeat the pairing operation for the additional remote controls.</p>
+<p>The paired remote controls can operate the same receiver independently.</p>
+<p><strong>Q7: Can two remote controls use the same working mode, such as delay mode or toggle mode?</strong></p>
+<p><strong>A:</strong> Yes. Multiple remote controls can be paired with the same receiver and used with the same working mode, such as delay mode or toggle mode.</p>
+<p><strong>Q8: Can KR1201A reverse a DC motor?</strong></p>
+<p><strong>A:</strong> No. KR1201A is a single-channel relay receiver. It supports simple on/off control and cannot reverse a DC motor directly.</p>
+<p>Reversing a DC motor requires switching the positive and negative terminals of the motor, which normally requires at least a two-channel relay controller or a dedicated motor controller.</p>
+<p><strong>Q9: Can button B be used to reverse a motor?</strong></p>
+<p><strong>A:</strong> Not with KR1201A alone. KR1201A is a single-channel controller and cannot provide forward and reverse motor control.</p>
+<p>For motor forward and reverse control, use a suitable two-channel controller, such as a controller designed for DC motor or linear actuator control.</p>
+<p><strong>Q10: Can KR1201A control a servo motor?</strong></p>
+<p><strong>A:</strong> KR1201A is not designed for precise servo motor control. Servo motors usually require signal-based control from a suitable servo controller or programmable controller.</p>
+<p>If you only need simple motor forward and reverse operation, use a suitable motor controller instead of KR1201A.</p>
+<p><strong>Q11: Can two KR1201A receivers be used to control a DC motor left and right?</strong></p>
+<p><strong>A:</strong> KR1201A is not the recommended solution for DC motor direction control. For left and right, forward and reverse, or polarity-changing motor control, use a two-channel receiver or a dedicated motor controller.</p>
+<p><strong>Q12: Can KR1201A be powered by AC power?</strong></p>
+<p><strong>A:</strong> No. KR1201A is a DC relay receiver and must not be connected directly to AC power.</p>
+<p>Use a suitable DC power supply for KR1201A. If your application requires AC 110V or AC 220V control, choose a relay receiver designed for that AC voltage.</p>
+<p><strong>Q13: Can KR1201A control AC 220V home appliances?</strong></p>
+<p><strong>A:</strong> KR1201A itself is a 12V DC receiver module. Do not power the module directly with AC 220V.</p>
+<p>If you need to control AC 220V appliances, use a relay module designed for AC 220V applications, or use KR1201A only in a properly isolated control circuit designed by a qualified person.</p>
+<p><strong>Q14: Can KR1201A and the load use the same power supply?</strong></p>
+<p><strong>A:</strong> They can use the same power supply only if the voltage and current ratings match the requirements of both the receiver and the load.</p>
+<p>Check that:</p>
+<ul>
+<li>the receiver input voltage matches the power supply;</li>
+<li>the load voltage matches the same power supply;</li>
+<li>the power supply output current is sufficient for the receiver and load together.</li>
+</ul>
+<p>If the voltage is incorrect or the current is insufficient, the device may not work properly or may be damaged.</p>
+<p><strong>Q15: Can a 5V version work with a 3.7V Li-ion / 18650 battery?</strong></p>
+<p><strong>A:</strong> A 5V-rated receiver is designed to operate at 5V. A 3.7V Li-ion battery, such as an 18650 cell, is lower than the rated voltage.</p>
+<p>It may cause unstable operation, reduced remote-control distance, or failure to work. For stable performance, use a proper 5V power source for a 5V receiver.</p>
+<p><strong>Q16: What battery should be used for KR1201A?</strong></p>
+<p><strong>A:</strong> Use a suitable 12V power source for KR1201A. A 12V lithium battery can provide better power capacity than ordinary AA batteries.</p>
+<p>Ordinary AA batteries may work if they provide the required voltage, but they usually have lower capacity and may run out quickly. If the device stops working, check whether the battery is drained or whether the receiver has been damaged.</p>
+<p><strong>Q17: Can a 9V battery power KR1201A?</strong></p>
+<p><strong>A:</strong> No. KR1201A is designed for 12V DC power. A 9V battery may light the indicator but may not provide enough voltage for the relay to work correctly.</p>
+<p>Use a proper 12V power source within the specified operating range.</p>
+<p><strong>Q18: Can two devices be connected using NO and NC?</strong></p>
+<p><strong>A:</strong> Yes, the NO and NC terminals can be used according to the relay logic. NO is normally open, and NC is normally closed.</p>
+<p>For example, one load can be connected through NO and another load through NC, so one load is on while the other is off. Make sure the wiring matches the load type and power supply, and avoid short circuits.</p>
+<p><strong>Q19: Can the negative line be connected to COM for triggering?</strong></p>
+<p><strong>A:</strong> In many wiring diagrams, the positive line is connected to COM. However, if you understand the relay principle, the negative line can also be connected to COM in some DC circuits.</p>
+<p>The key rule is that the circuit must not create a short circuit before or after relay triggering.</p>
+<p><strong>Q20: Can KR1201A control two LED lights so that one is on while the other is off?</strong></p>
+<p><strong>A:</strong> Yes, this can be done by using the NO and NC contacts of the relay.</p>
+<p>One LED can be connected through the NO terminal, and the other LED can be connected through the NC terminal. When the relay changes state, one LED turns on and the other turns off.</p>
+<p>For more complex multi-load control, a multi-channel relay receiver is recommended.</p>
+<p><strong>Q21: What is the maximum remote-control distance?</strong></p>
+<p><strong>A:</strong> The actual remote-control distance depends on the remote model, antenna, installation environment, obstacles, and interference.</p>
+<p>Some remotes may claim very long ranges, such as 2 miles or 3 km, but real-world performance can be much lower. In practical road-like testing, the distance may be around 1 km or less depending on conditions.</p>
+<p><strong>Q22: Can an external antenna be connected?</strong></p>
+<p><strong>A:</strong> KR1201A has an antenna on the module. The antenna can be replaced for testing, but the replacement antenna must match the required specifications.</p>
+<p>If the antenna impedance or design is not suitable, the distance may not improve and the module may perform poorly.</p>
+<p><strong>Q23: How do I reset KR1201A?</strong></p>
+<p><strong>A:</strong> For QIACHIP KR1201A, reset is usually performed by pressing the learning button on the receiver 8 times.</p>
+<p>After reset, previously paired remote controls and mode settings may be cleared. Pair the remote controls and set the working mode again after reset.</p>
+<p><strong>Q24: Does KR1201A have memory storage, such as EEPROM?</strong></p>
+<p><strong>A:</strong> Yes. KR1201A has storage memory for paired remote controls and mode settings.</p>
+<p>The module can store up to 20 remote controls.</p>
+<p><strong>Q25: Can KR1201A be used for access control or automatic residential gates?</strong></p>
+<p><strong>A:</strong> KR1201A can provide dry contact control and may be used in some access-control applications.</p>
+<p>Whether it can be used for an automatic residential gate depends on the gate controller's working principle, input requirements, and voltage. For AC 220V systems or higher-power applications, choose a suitable relay receiver designed for that system.</p>
 
 
 
