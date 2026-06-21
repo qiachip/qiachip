@@ -1,5 +1,8 @@
-temp/ 
-.cursor/rules/ 
-.trae/rules/ 
-venv/ 
-site/ 
+temp/
+.cursor/rules/
+.trae/rules/
+venv/
+site/
+.worktrees/
+__pycache__/
+*.pyc

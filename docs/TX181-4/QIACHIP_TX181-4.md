@@ -7,9 +7,9 @@ comments: true
 ![QIACHIP TX181-4 Product Diagram.webp](QIACHIP_TX181-4_Product_Diagram.webp){ width="50%" .center loading="lazy" }
 
 > Version: V1.0
-
-> Last Updated: 2026-2-28
-
+> 
+> Last Updated: 2026-5-18
+> 
 > Model: TX181-4
 
 ## Product Size
@@ -64,8 +64,8 @@ Disconnect power before wiring.
 | Input voltage | DC 3.0V-24V |
 | RF frequency | 433.92MHz |
 | Transmit Power | ≥10dBm |
-| Transmission Distance | 100m - 300m (open and unobstructed environment) |
-| Transmission Power Consumption | 5 - 6 mA |
+| Transmission Distance | 20m - 80m (open and unobstructed environment) |
+| Transmission Power Consumption |  5 - 6 mA |
 | Working temperature | -40~85℃ |
 | Size | 15x10x1mm |
 

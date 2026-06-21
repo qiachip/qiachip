@@ -102,6 +102,13 @@ Figure 3: Wiring diagram for lamps
 
 ### How to set momentary mode
 
+<div style="color: red; font-weight: bold;">
+<p>NOTE</p>
+<ul>
+<li>The KR2202 can only be properly set up after being successfully paired with two different buttons on the remote control.</li>
+</ul>
+</div>
+
 **Step 1**
 
 Click the learning button of the receiver once. The indicator light on the receiver will turn off, and the receiver will enter the setting state.
@@ -122,6 +129,13 @@ In this mode:
 - Press the remote control button (such as A) again, and the corresponding relay on the receiver will turn off.
 
 ### How to set toggle mode
+
+<div style="color: red; font-weight: bold;">
+<p>NOTE</p>
+<ul>
+<li>The KR2202 can only be properly set up after being successfully paired with two different buttons on the remote control.</li>
+</ul>
+</div>
 
 **Step 1**
 
@@ -144,6 +158,13 @@ In this mode:
 - Press the remote control button (such as C), and the currently activated relay on the receiver will turn off.
 
 ### How to set latching mode
+
+<div style="color: red; font-weight: bold;">
+<p>NOTE</p>
+<ul>
+<li>The KR2202 can only be properly set up after being successfully paired with two different buttons on the remote control.</li>
+</ul>
+</div>
 
 **Step 1**
 
@@ -182,3 +203,15 @@ Click the learning button on the receiver 8 times. The indicator light will flas
 
 - L and N wires must not be reversed.
 - When using wireless electronic devices, avoid proximity to metal objects, large electronic equipment, electromagnetic fields, and other sources of strong interference.
+
+## Frequently Asked Questions（Q&A）
+
+**Q1: I successfully programmed Momentary mode according to the manual. Relay 1 works correctly (NO contact closes). However, both A and B buttons operate Relay 1 only. Relay 2 never activates and its NO/NC contacts never change state. Is there an additional procedure required to assign button B to Channel 2, or is the receiver defective?**
+
+**A:** Press the button on the receiver 8 times to reset. After resetting, if pressing a button on the remote control fails to control the device, the reset is complete.
+
+Depending on your desired pairing mode, press the corresponding number of buttons on the receiver until the indicator light turns off. Then press the button for the first remote control you want to pair.
+
+Here's the important part: After pressing the button, wait for the indicator light to flash and then turn off before pressing the button for the second remote control you want to pair.
+
+Only after both buttons are paired is the pairing considered successful.

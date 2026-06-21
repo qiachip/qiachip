@@ -101,15 +101,21 @@ glightbox: false  # 禁用当前页面的灯箱效果
 
 <div class="product-list">
 
-  <a href="KR1201A/QIACHIP_KR1201A/">
-    <img src="KR1201A/QIACHIP_KR1201A_Product_Diagram.webp" alt="KR1201A Product Image">
+  <a href="KR1201/KR1201A/QIACHIP_KR1201A/">
+    <img src="KR1201/KR1201A/QIACHIP_KR1201A_Product_Diagram.webp" alt="KR1201A Product Image">
     <h2>KR1201A</h2>
     
   </a>
 
-  <a href="KR1201C/QIACHIP_KR1201C/">
-    <img src="KR1201C/QIACHIP_KR1201C_Product_Diagram.webp" alt="KR1201C Product Image">
+  <a href="KR1201/KR1201C/QIACHIP_KR1201C/">
+    <img src="KR1201/KR1201C/QIACHIP_KR1201C_Product_Diagram.webp" alt="KR1201C Product Image">
     <h2>KR1201C</h2>
+    
+  </a>
+
+  <a href="KR1201/KR1201MINI-V03/QIACHIP_KR1201MINI-V03/">
+    <img src="KR1201/KR1201MINI-V03/QIACHIP_KR1201MINI-V03_Product_Diagram.webp" alt="KR1201MINI-V03 Product Image">
+    <h2>KR1201MINI-V03</h2>
     
   </a>
 
@@ -119,38 +125,38 @@ glightbox: false  # 禁用当前页面的灯箱效果
     
   </a>
 
-  <a href="KR1202-30R/QIACHIP_KR1202-30R/">
-    <img src="KR1202-30R/QIACHIP_KR1202-30R_Product_Diagram.webp" alt="KR1202-30R Product Image">
+  <a href="KR1202/KR1202-30R/QIACHIP_KR1202-30R/">
+    <img src="KR1202/KR1202-30R/QIACHIP_KR1202-30R_Product_Diagram.webp" alt="KR1202-30R Product Image">
     <h2>KR1202-30R</h2>
     
   </a>
 
-  <a href="KR1202-V05/QIACHIP_KR1202-V05/">
-    <img src="KR1202-V05/QIACHIP_KR1202-V05_Product_Diagram.webp" alt="KR1202-V05 Product Image">
+  <a href="KR1202/KR1202-V05/QIACHIP_KR1202-V05/">
+    <img src="KR1202/KR1202-V05/QIACHIP_KR1202-V05_Product_Diagram.webp" alt="KR1202-V05 Product Image">
     <h2>KR1202-V05</h2>
     
   </a>
 
-  <a href="KR1204/QIACHIP_KR1204/">
-    <img src="KR1204/KR1204_Product_Diagram.webp" alt="KR1204 Product Image">
+  <a href="KR1204/KR1204/QIACHIP_KR1204/">
+    <img src="KR1204/KR1204/KR1204_Product_Diagram.webp" alt="KR1204 Product Image">
     <h2>KR1204</h2>
     
   </a>
 
-  <a href="KR1204B/QIACHIP_KR1204B/">
-    <img src="KR1204B/QIACHIP_KR1204B_Product_Diagram.webp" alt="KR1204B Product Image">
+  <a href="KR1204/KR1204B/QIACHIP_KR1204B/">
+    <img src="KR1204/KR1204B/QIACHIP_KR1204B_Product_Diagram.webp" alt="KR1204B Product Image">
     <h2>KR1204B</h2>
     
   </a>
 
-  <a href="KR2401FB/QIACHIP_KR2401FB/">
-    <img src="KR2401FB/QIACHIP_KR2401FB_Product_Diagram.webp" alt="KR2401FB Product Image">
+  <a href="KR2401/KR2401FB/QIACHIP_KR2401FB/">
+    <img src="KR2401/KR2401FB/QIACHIP_KR2401FB_Product_Diagram.webp" alt="KR2401FB Product Image">
     <h2>KR2401FB</h2>
     
   </a>
 
-  <a href="KR2401F-4/QIACHIP_KR2401F-4/">
-    <img src="KR2401F-4/QIACHIP_KR2401F-4_Product_Diagram.webp" alt="KR2401F-4 Product Image">
+  <a href="KR2401/KR2401F-4/QIACHIP_KR2401F-4/">
+    <img src="KR2401/KR2401F-4/QIACHIP_KR2401F-4_Product_Diagram.webp" alt="KR2401F-4 Product Image">
     <h2>KR2401F-4</h2>
     
   </a>
@@ -161,21 +167,27 @@ glightbox: false  # 禁用当前页面的灯箱效果
     
   </a>
 
-  <a href="KR0548-1CH/QIACHIP_KR0548-1CH/">
-    <img src="KR0548-1CH/QIACHIP_KR0548-1CH_Product_Diagram.webp" alt="KR0548-1CH Product Image">
+  <a href="KR0548/KR0548-1CH/QIACHIP_KR0548-1CH/">
+    <img src="KR0548/KR0548-1CH/QIACHIP_KR0548-1CH_Product_Diagram.webp" alt="KR0548-1CH Product Image">
     <h2>KR0548-1CH</h2>
     
   </a>
 
-  <a href="KR0548-2CH/QIACHIP_KR0548-2CH/">
-    <img src="KR0548-2CH/QIACHIP_KR0548-2CH_Product_Diagram.webp" alt="KR0548-2CH Product Image">
+  <a href="KR0548/KR0548-2CH/QIACHIP_KR0548-2CH/">
+    <img src="KR0548/KR0548-2CH/QIACHIP_KR0548-2CH_Product_Diagram.webp" alt="KR0548-2CH Product Image">
     <h2>KR0548-2CH</h2>
     
   </a>
 
-  <a href="KR0548-4CH/QIACHIP_KR0548-4CH/">
-    <img src="KR0548-4CH/QIACHIP_KR0548-4CH_Product_Diagram.webp" alt="KR0548-4CH Product Image">
+  <a href="KR0548/KR0548-4CH/QIACHIP_KR0548-4CH/">
+    <img src="KR0548/KR0548-4CH/QIACHIP_KR0548-4CH_Product_Diagram.webp" alt="KR0548-4CH Product Image">
     <h2>KR0548-4CH</h2>
+    
+  </a>
+
+  <a href="KR7001/QIACHIP_KR7001/">
+    <img src="KR7001/QIACHIP_KR7001_Product_Diagram.webp" alt="KR7001 Product Image">
+    <h2>KR7001</h2>
     
   </a>
 
@@ -185,68 +197,68 @@ glightbox: false  # 禁用当前页面的灯箱效果
 
 <div class="product-list">
 
-  <a href="KR2201-4/QIACHIP_KR2201-4/">
-    <img src="KR2201-4/QIACHIP_KR2201-4_Product_Diagram.webp" alt="KR2201-4 Product Image">
+  <a href="KR2201/KR2201-4/QIACHIP_KR2201-4/">
+    <img src="KR2201/KR2201-4/QIACHIP_KR2201-4_Product_Diagram.webp" alt="KR2201-4 Product Image">
     <h2>KR2201-4</h2>
     
   </a>
 
-  <a href="KR2201-COM/QIACHIP_KR2201-COM/">
-    <img src="KR2201-COM/QIACHIP_KR2201-COM_Product_Diagram.webp" alt="KR2201-COM Product Image">
+  <a href="KR2201/KR2201-COM/QIACHIP_KR2201-COM/">
+    <img src="KR2201/KR2201-COM/QIACHIP_KR2201-COM_Product_Diagram.webp" alt="KR2201-COM Product Image">
     <h2>KR2201-COM</h2>
     
   </a>
 
-  <a href="KR2201B-4/QIACHIP_KR2201B-4/">
-    <img src="KR2201B-4/QIACHIP_KR2201B-4_Product_Diagram.webp" alt="KR2201B-4 Product Image">
+  <a href="KR2201/KR2201B-4/QIACHIP_KR2201B-4/">
+    <img src="KR2201/KR2201B-4/QIACHIP_KR2201B-4_Product_Diagram.webp" alt="KR2201B-4 Product Image">
     <h2>KR2201B-4</h2>
     
   </a>
 
-  <a href="KR2201BL-4/QIACHIP_KR2201BL-4/">
-    <img src="KR2201BL-4/QIACHIP_KR2201BL-4_Product_Diagram.webp" alt="KR2201BL-4 Product Image">
+  <a href="KR2201/KR2201BL-4/QIACHIP_KR2201BL-4/">
+    <img src="KR2201/KR2201BL-4/QIACHIP_KR2201BL-4_Product_Diagram.webp" alt="KR2201BL-4 Product Image">
     <h2>KR2201BL-4</h2>
     
   </a>
 
-  <a href="KR2201BY/QIACHIP_KR2201BY/">
-    <img src="KR2201BY/QIACHIP_KR2201BY_Product_Diagram.webp" alt="KR2201BY Product Image">
+  <a href="KR2201/KR2201BY/QIACHIP_KR2201BY/">
+    <img src="KR2201/KR2201BY/QIACHIP_KR2201BY_Product_Diagram.webp" alt="KR2201BY Product Image">
     <h2>KR2201BY</h2>
     
   </a>
 
-  <a href="KR2201DA-4/QIACHIP_KR2201DA-4/">
-    <img src="KR2201DA-4/QIACHIP_KR2201DA-4_Product_Diagram.webp" alt="KR2201DA-4 Product Image">
+  <a href="KR2201/KR2201DA-4/QIACHIP_KR2201DA-4/">
+    <img src="KR2201/KR2201DA-4/QIACHIP_KR2201DA-4_Product_Diagram.webp" alt="KR2201DA-4 Product Image">
     <h2>KR2201DA-4</h2>
     
   </a>
 
-  <a href="KR2201F-4/QIACHIP_KR2201F-4/">
-    <img src="KR2201F-4/QIACHIP_KR2201F-4_Product_Diagram.webp" alt="KR2201F-4 Product Image">
+  <a href="KR2201/KR2201F-4/QIACHIP_KR2201F-4/">
+    <img src="KR2201/KR2201F-4/QIACHIP_KR2201F-4_Product_Diagram.webp" alt="KR2201F-4 Product Image">
     <h2>KR2201F-4</h2>
     
   </a>
 
-  <a href="KR2201G-4/QIACHIP_KR2201G-4/">
-    <img src="KR2201G-4/QIACHIP_KR2201G-4_Product_Diagram.webp" alt="KR2201G-4 Product Image">
+  <a href="KR2201/KR2201G-4/QIACHIP_KR2201G-4/">
+    <img src="KR2201/KR2201G-4/QIACHIP_KR2201G-4_Product_Diagram.webp" alt="KR2201G-4 Product Image">
     <h2>KR2201G-4</h2>
     
   </a>
 
-  <a href="KR2201GS-4/QIACHIP_KR2201GS-4/">
-    <img src="KR2201GS-4/QIACHIP_KR2201GS-4_Product_Diagram.webp" alt="KR2201GS-4 Product Image">
+  <a href="KR2201/KR2201GS-4/QIACHIP_KR2201GS-4/">
+    <img src="KR2201/KR2201GS-4/QIACHIP_KR2201GS-4_Product_Diagram.webp" alt="KR2201GS-4 Product Image">
     <h2>KR2201GS-4</h2>
     
   </a>
 
-  <a href="KR2201W-4/QIACHIP_KR2201W-4/">
-    <img src="KR2201W-4/QIACHIP_KR2201W-4_Product_Diagram.webp" alt="KR2201W-4 Product Image">
+  <a href="KR2201/KR2201W-4/QIACHIP_KR2201W-4/">
+    <img src="KR2201/KR2201W-4/QIACHIP_KR2201W-4_Product_Diagram.webp" alt="KR2201W-4 Product Image">
     <h2>KR2201W-4</h2>
     
   </a>
 
-  <a href="KR2201WB/QIACHIP_KR2201WB/">
-    <img src="KR2201WB/QIACHIP_KR2201WB_Product_Diagram.webp" alt="KR2201WB Product Image">
+  <a href="KR2201/KR2201WB/QIACHIP_KR2201WB/">
+    <img src="KR2201/KR2201WB/QIACHIP_KR2201WB_Product_Diagram.webp" alt="KR2201WB Product Image">
     <h2>KR2201WB</h2>
     
   </a>
@@ -263,14 +275,14 @@ glightbox: false  # 禁用当前页面的灯箱效果
     
   </a>
 
-  <a href="KR2301-4/QIACHIP_KR2301-4/">
-    <img src="KR2301-4/QIACHIP_KR2301_Product_Diagram.webp" alt="KR2301-4 Product Image">
-    <h2>KR2301-4</h2>
+  <a href="KR2301/KR2301/QIACHIP_KR2301/">
+    <img src="KR2301/KR2301/QIACHIP_KR2301_Product_Diagram.webp" alt="KR2301 Product Image">
+    <h2>KR2301</h2>
     
   </a>
 
-  <a href="KR2301MT/QIACHIP_KR2301MT/">
-    <img src="KR2301MT/QIACHIP_KR2301MT_Product_Diagram.webp" alt="KR2301MT Product Image">
+  <a href="KR2301/KR2301MT/QIACHIP_KR2301MT/">
+    <img src="KR2301/KR2301MT/QIACHIP_KR2301MT_Product_Diagram.webp" alt="KR2301MT Product Image">
     <h2>KR2301MT</h2>
     
   </a>
@@ -317,20 +329,26 @@ glightbox: false  # 禁用当前页面的灯箱效果
 
 <div class="product-list">
 
-  <a href="RX480E-4C/QIACHIP_RX480E-4C/">
-    <img src="RX480E-4C/QIACHIP_RX480E-4C_Product_Diagram.webp" alt="RX480E Product Image">
-    <h2>RX480E</h2>
+  <a href="RX480E/RX480E-4A/QIACHIP_RX480E-4A/">
+    <img src="RX480E/RX480E-4A/QIACHIP_RX480E-4A_Product_Diagram.webp" alt="RX480E-4A Product Image">
+    <h2>RX480E-4A</h2>
     
   </a>
 
-  <a href="RX480E-1A/QIACHIP_RX480E-1A/">
-    <img src="RX480E-1A/QIACHIP_RX480E-1A_Product_Diagram.webp" alt="RX480E-1A Product Image">
+  <a href="RX480E/RX480E-4C/QIACHIP_RX480E-4C/">
+    <img src="RX480E/RX480E-4C/QIACHIP_RX480E-4C_Product_Diagram.webp" alt="RX480E-4C Product Image">
+    <h2>RX480E-4C</h2>
+    
+  </a>
+
+  <a href="RX480E/RX480E-1A/QIACHIP_RX480E-1A/">
+    <img src="RX480E/RX480E-1A/QIACHIP_RX480E-1A_Product_Diagram.webp" alt="RX480E-1A Product Image">
     <h2>RX480E-1A</h2>
     
   </a>
 
-  <a href="RX480E-868/QIACHIP_RX480E-868/">
-    <img src="RX480E-868/QIACHIP_RX480E-868_Product_Diagram.webp" alt="RX480E-868 Product Image">
+  <a href="RX480E/RX480E-868/QIACHIP_RX480E-868/">
+    <img src="RX480E/RX480E-868/QIACHIP_RX480E-868_Product_Diagram.webp" alt="RX480E-868 Product Image">
     <h2>RX480E-868</h2>
     
   </a>
