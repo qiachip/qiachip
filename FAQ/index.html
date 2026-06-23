@@ -2452,74 +2452,115 @@
 <p>Whether it can be used for an automatic residential gate depends on the gate controller's working principle, input requirements, and voltage. For AC 220V systems or higher-power applications, choose a suitable relay receiver designed for that system.</p>
 </details>
 <h2 id="kr2202"><strong>KR2202</strong></h2>
-<div class="admonition note">
-<p class="admonition-title">Keywords</p>
-<p>Remote control, Programming, Frequency adjustment, Multiple transmitter pairing, Momentary mode, Power interruption, Application scenarios, Simultaneous key press, Battery replacement, Video demonstration</p>
-</div>
 <details class="question">
-<summary>1. 🔌 Wiring Method</summary>
-<p><strong>Q</strong>: How did you wire this?</p>
-<p><strong>A</strong>: I'm glad you asked. Since many people have the same question, I made a detailed video using motor control to demonstrate the working principle.</p>
-<div class="admonition video">
-<p class="admonition-title">Video</p>
-<p><a href="https://www.youtube.com/watch?v=o7SbTBAeAIU">How to wire KR2202</a></p>
-</div>
-<p>If you still have doubts, feel free to ask. I hope it helps!</p>
+<summary>1. Is KR2202 compatible with 230V AC?</summary>
+<p><strong>A:</strong> The KR2202 input voltage is AC 85V-250V, so it is compatible with a 230V AC power supply. Disconnect power before wiring, and make sure the L (Live wire) and N (Neutral wire) are not reversed.</p>
+<p>The Rated Load is Max 1100W. When using a 230V AC load, also confirm that the load power, current, and starting current do not exceed the product specifications and that the installation complies with local electrical safety standards.</p>
 </details>
 <details class="question">
-<summary>2. 🔋 Power Loss and Reprogramming</summary>
-<p><strong>Q</strong>: Thanks for the video. I'm wondering, if the electronic board loses power, do I need to reprogram the remote control, or will it work with the last programming?</p>
-<p><strong>A</strong>: Usually, these devices keep their code and paired remotes even after a power cut. However, a concern is that they may default to the "on" state. If power is restored, it could turn on your heater and pose a fire risk. Also, for remotes with rolling codes, if the battery dies, you'll need to reprogram. The remote starts with a zero code, while the receiver expects a higher rolled - code, causing a mismatch until re - learning. Each battery change requires re - learning the remote!</p>
+<summary>2. Is the KR2202 receiver powered by 220V, or are the switching contacts rated for 220V?</summary>
+<p><strong>A:</strong> The KR2202 receiver itself has an input voltage of AC 85V-250V, so the receiver can be powered directly by 110V / 220V / 230V AC.</p>
+<p>Its relay output is a dry contact relay output through the NO (Normally open terminal), COM (Common terminal), and NC (Normally closed terminal) terminals. A dry contact means the relay contact does not output voltage by itself; it works like a switch that opens or closes an external circuit.</p>
 </details>
 <details class="question">
-<summary>3. 📡 Frequency Adjustment</summary>
-<p><strong>Q</strong>: Hi! I've got the KR2402 working with DC 6 - 30V, but I'm having frequency issues. Can I change the frequency, and how? Thanks.</p>
-<p><strong>A</strong>: What kind of problems are you facing? If the frequency of the KR2402 changes, the paired remote control (transmitter) must also change its frequency.</p>
+<summary>3. Does the relay remain in its set state after power loss?</summary>
+<p><strong>A:</strong> The KR2202 relay can operate only when the receiver is powered. When power is off, the receiver and relay will not respond to remote control commands, and the relay output cannot actively remain energized.</p>
+<p>According to the manual, once the receiver and transmitter are paired and an operation mode is selected, the receiver retains this mode even after power off and power on again. However, this does not mean the relay remains energized during a power outage. After power is restored, relay behavior depends on the selected operation mode and later remote control commands.</p>
 </details>
 <details class="question">
-<summary>4. 📱 Multiple Remote Pairing</summary>
-<p><strong>Q</strong>: In momentary mode, can I program multiple transmitters to channels A &amp; B, or is it one transmitter per channel?</p>
-<p><strong>A</strong>: You can pair multiple transmitters with the receiver. Note: When adding multiple remotes, you don't need to press the receiver's button 8 times before each pairing. Pressing it 8 times resets the receiver and clears all paired remotes.</p>
+<summary>4. How do I replace the battery in the remote control?</summary>
+<p><strong>A:</strong> First check the case structure of your transmitter. Common remote controls usually require removing the screws or back cover before replacing the battery. When opening the case, do not damage the circuit board, button pad, or battery contacts, and install the new battery according to the original battery model and polarity.</p>
+<p>If you are not sure about the battery model or do not want to open the case yourself, take the remote control to a watch repair shop, electronics repair shop, or battery store and ask them to replace it with the same battery specification.</p>
 </details>
 <details class="question">
-<summary>5. ⚙️ Automatic Control</summary>
-<p><strong>Q</strong>: How can the remote (transmitter) work automatically, like for automatic on/off of a submersible pump motor?</p>
-<p><strong>A</strong>: I'm glad you asked. As many have the same question, I made a video demonstrating the principle using motor control.</p>
-<div class="admonition video">
-<p class="admonition-title">Video</p>
-<p><a href="https://www.youtube.com/watch?v=o7SbTBAeAIU">How to automate KR2202</a></p>
-</div>
-<p>If you still have questions, ask away. I hope it's useful!</p>
+<summary>5. Do the two relay channels trigger simultaneously, or is there a sequential mode?</summary>
+<p><strong>A:</strong> The KR2202 is a 2-CH relay receiver, and the two relay channels are normally controlled by different remote control buttons. The manual provides Momentary mode, Toggle mode, and Latching mode, but it does not provide a separate automatic sequential triggering / time-delay sequence mode.</p>
+<p>In Momentary mode or Toggle mode, button A controls one relay and button B controls the other relay. In Latching mode, pressing A turns relay A on; pressing B turns relay B on while relay A turns off; pressing C turns off the currently activated relay.</p>
 </details>
 <details class="question">
-<summary>6. 💡 LED Light Control</summary>
-<p><strong>Q</strong>: Can it be used with DC to turn on an LED light indoors when it's dark?</p>
-<p><strong>A</strong>: Yes, if you use the 12V kit.</p>
+<summary>6. Can I customize the remote button labels?</summary>
+<p><strong>A:</strong> We offer a variety of labels for you to choose from. If you require customization, there is a minimum order quantity.</p>
 </details>
 <details class="question">
-<summary>7. 🔄 Application Scenarios</summary>
-<p><strong>Q</strong>: Is it only for LEDs? For pump motor switching, are there design changes needed? Any commercial plans?</p>
-<p><strong>A</strong>: It's not limited to LEDs. LED control is just a demonstration. You can apply it to other devices.</p>
+<summary>7. How do I set button A to control Relay 1 and button B to control Relay 2 in Momentary mode?</summary>
+<p><strong>A:</strong> Yes. To set Momentary mode, click the Learning button on the receiver once. When the indicator light turns off, the receiver enters the setting state. Press button A on the remote control once and wait for the indicator light to flash and turn off. Then press button B on the same remote control once. When the indicator light flashes and then turns on, Momentary mode has been set successfully.</p>
+<p>In Momentary mode, the corresponding relay turns on only while the remote control button is pressed and held. When the button is released, the relay turns off. For two-direction motor control, make sure the wiring follows the KR2202 Wiring diagram for AC motors or Wiring diagram for DC motors, and ensure that the forward and reverse circuits cannot be energized at the same time. The load must not exceed the Rated Load: Max 1100W.</p>
 </details>
 <details class="question">
-<summary>8. 🎮 Simultaneous Key Press</summary>
-<p><strong>Q</strong>: What happens if I press both keys simultaneously in momentary mode? Will only one work, or will both LEDs light up? I need only one channel active at a time to protect the engine.</p>
-<p><strong>A</strong>: If you press both buttons on the remote at the same time, the receiver won't activate, and neither channel will have an output.</p>
+<summary>8. Can one remote control Relay 1 and another remote control Relay 2?</summary>
+<p><strong>A:</strong> Yes, the KR2202 is a 2-CH relay receiver, so the two relay channels must be assigned to two different transmitter buttons during the same mode-setting sequence. For example, in Toggle mode, click the Learning button on the receiver twice. When the indicator light turns off, the receiver enters the setting state. Press the button on the first remote that you want to use for Relay 1, then wait for the indicator light to flash and turn off again. Press the button on the second remote that you want to use for Relay 2. When the indicator light flashes and then turns on, Toggle mode has been set successfully.</p>
+<p>If the buttons were assigned incorrectly, click the Learning button 8 times to perform the Reset function. After reset, all paired transmitters will be cleared, and the operation mode and transmitter buttons must be paired again.</p>
 </details>
 <details class="question">
-<summary>9. 🔀 Mixed Mode</summary>
-<p><strong>Q</strong>: Can I use a single remote to control one switch in momentary mode and another in toggle mode?</p>
-<p><strong>A</strong>: I'm glad you brought this up. Let me confirm: You have two switches and one remote, and you want to control them in different modes, right? In theory, it's possible, but not recommended. Unless the switches are far apart, the remote's signal may interfere with both when activating one. Using two remotes is a better option to avoid interference. I hope this clears your doubt. Share your feedback later!</p>
+<summary>9. Can I pair multiple transmitters in Momentary mode?</summary>
+<p><strong>A:</strong> Yes. You can pair multiple transmitters with the receiver. When adding additional remotes, do not press the receiver button 8 times before each pairing, because pressing it 8 times performs a reset and clears all paired remotes.</p>
 </details>
 <details class="question">
-<summary>10. 🔄 Reset Settings</summary>
-<p><strong>Q</strong>: Do I need to reset the remote control repeatedly, or will it work with a one - time setup?</p>
-<p><strong>A</strong>: Check out our new video:</p>
-<div class="admonition video">
-<p class="admonition-title">Video</p>
-<p><a href="https://www.youtube.com/watch?v=EQyKgdRzZOE">How to use KR2202 - Updated Guide</a></p>
-</div>
-<p>The issue you mentioned doesn't happen in this video. You might have used the wrong method, or our old video didn't explain clearly. Watch the new one, try again, and give us feedback. Thanks!</p>
+<summary>10. Why does a 3-button UP / STOP / DOWN remote not work correctly in Toggle mode?</summary>
+<p><strong>A:</strong> If you want the UP / STOP / DOWN buttons to work as motor direction and stop commands, Toggle mode is usually not the correct operation mode. According to the KR2202 manual, Toggle mode works as follows: press a remote control button once and the corresponding relay turns on; press the same button again and the corresponding relay turns off.</p>
+<p>For a 3-button transmitter, Latching mode is normally the better match. In Latching mode, pressing button A turns relay A on; pressing button B turns relay B on while relay A turns off; pressing button C turns off the currently activated relay. Latching mode requires a remote control with at least three buttons. Reset the receiver if necessary, then set Latching mode again and wait for the indicator light to flash / turn off / turn on at each step before pressing the next button.</p>
+</details>
+<details class="question">
+<summary>11. Can one remote control one switch in Momentary mode and another in Toggle mode?</summary>
+<p><strong>A:</strong> In theory, this is possible, but it is not recommended. In practical use, one remote controlling two switches in different modes may lead to unstable or unintended behavior, especially when the two controlled circuits are close to each other.</p>
+<p>In most cases, using two separate remotes is the better option.</p>
+</details>
+<details class="question">
+<summary>12. Why do both A and B buttons control Relay 1 only after I pair Momentary mode?</summary>
+<p><strong>A:</strong> Press the button on the receiver 8 times to reset. After resetting, if pressing a button on the remote control fails to control the device, the reset is complete.</p>
+<p>Depending on your desired pairing mode, press the corresponding number of buttons on the receiver until the indicator light turns off. Then press the button for the first remote control you want to pair.</p>
+<p>Here's the important part: After pressing the button, wait for the indicator light to flash and then turn off before pressing the button for the second remote control you want to pair.</p>
+<p>Only after both buttons are paired is the pairing considered successful.</p>
+</details>
+<details class="question">
+<summary>13. How should I wire the KR2202?</summary>
+<p><strong>A:</strong> The wiring depends on your application. For motor control, follow the KR2202 Wiring diagram for AC motors or Wiring diagram for DC motors in the product manual. The receiver can be used for one reversible motor or two one-direction loads, depending on how the relay outputs are wired.</p>
+<p>Disconnect power before wiring, do not reverse L and N, and make sure the load remains within the Rated Load: Max 1100W.</p>
+</details>
+<details class="question">
+<summary>14. Can one remote control one reversible motor or two one-direction motors?</summary>
+<p><strong>A:</strong> The KR2202 is a 2-CH relay receiver with NO (Normally open terminal), COM (Common terminal), and NC (Normally closed terminal) relay contacts. It can be used for one reversible motor or for two one-direction loads / one-direction motors, provided that the wiring matches the required motor-control logic.</p>
+<p>For a reversible motor, follow the KR2202 Wiring diagram for AC motors or Wiring diagram for DC motors, and make sure the motor or external control circuit includes proper limit and interlock protection. For two one-direction motors, verify each motor's voltage, current, and starting current. The application must remain within the KR2202 Rated Load: Max 1100W.</p>
+</details>
+<details class="question">
+<summary>15. Can the KR2202 be used for winch raise / lower control?</summary>
+<p><strong>A:</strong> The KR2202 can be used in some winch / hoist / motor raise-and-lower applications, but you must first confirm that the winch motor voltage, running current, starting current, and control method are compatible with the KR2202. The KR2202 input voltage is AC 85V-250V, and the Rated Load is Max 1100W.</p>
+<p>If the winch requires both raise and lower directions, follow the KR2202 Wiring diagram for AC motors or Wiring diagram for DC motors according to the actual motor type, and make sure the forward and reverse circuits cannot be energized at the same time. The winch system should also have its own limit switch, overload protection, and safety brake / stop protection. Disconnect power before wiring, and have the wiring checked by a qualified person.</p>
+</details>
+<details class="question">
+<summary>16. Is the KR2202 suitable for a roller shutter or garage shutter?</summary>
+<p><strong>A:</strong> The KR2202 can be used for compatible AC motor applications, including some garage shutter / roller shutter systems. The manual provides a Wiring diagram for AC motors. The input power is AC 85V-250V, and the Rated Load is Max 1100W.</p>
+<p>If the shutter motor or motor controller already has limit protection, Momentary mode is usually recommended so that the relay is energized only while the button is held. If two-direction interlocking is required, Latching mode may be used: button A turns relay A on, button B turns relay B on while relay A turns off, and button C turns off the currently activated relay. During wiring, L and N wires must not be reversed, and the receiver should be kept away from strong electromagnetic interference sources.</p>
+</details>
+<details class="question">
+<summary>17. Can I use the KR2202 for gate open / close control in Momentary mode?</summary>
+<p><strong>A:</strong> Yes, but it depends on the input type of the gate controller. The KR2202 provides dry contact relay output through the NO / COM / NC terminals. If your gate controller supports dry contact input terminals, such as separate OPEN / CLOSE / STOP inputs, the two relay channels of the KR2202 can be used to trigger the open and close commands.</p>
+<p>If you want button A to open and button B to close, and you want the command to be active only while the button is pressed, use Momentary mode. In Momentary mode, the corresponding relay turns on while the remote control button is held and turns off when the button is released. Disconnect power before wiring, and confirm the COM / NO wiring according to the gate controller manual. Do not connect the KR2202 directly to terminals that are not designed for dry contact input.</p>
+</details>
+<details class="question">
+<summary>18. Can it be connected to a selector switch for motor direction control?</summary>
+<p><strong>A:</strong> The KR2202 does not provide a dedicated wired selector-switch input. It is designed to receive commands from a 433.92MHz RF transmitter and then switch the relay contacts (NO / COM / NC) on the receiver. Therefore, a standard selector switch cannot be connected directly to the KR2202 as a remote input.</p>
+<p>If your motor controller supports dry contact command inputs, the KR2202 relay output can be used to replace or parallel an external control input, allowing the remote control buttons to select motor direction. Whether a physical selector switch can also be used depends on the wiring design of the motor controller. Do not modify or wire into the KR2202 Learning button or internal circuit for this purpose.</p>
+</details>
+<details class="question">
+<summary>19. Are the 220V terminals and wire size safe for this application?</summary>
+<p><strong>A:</strong> The KR2202 electrical characteristics specify Input voltage: AC 85V-250V and Rated Load: Max 1100W. For AC 220V / 230V applications, wiring must comply with local electrical safety standards and conductor-size requirements, and installation should be performed by a qualified person.</p>
+<p>If the installation requires input cables of at least 0.75mm² and the receiver terminal block cannot securely clamp that conductor size, do not force the wire into the terminal. Use a compliant junction box, terminal block, terminal adapter, or other approved wiring method. Disconnect power before wiring. L (Live wire) and N (Neutral wire) must not be reversed. All conductors must be securely fixed to prevent looseness, overheating, or short circuit.</p>
+</details>
+<details class="question">
+<summary>20. Why does the system fail after I connect the load?</summary>
+<p><strong>A:</strong> If the receiver and transmitter work correctly with no load, but the system fails when the pool cover motor or another load is connected, check the wiring, load rating, and motor starting current first. The KR2202 input power is AC 85V-250V, and the Rated Load is Max 1100W. For an AC motor, follow the Wiring diagram for AC motors: connect L / N to the input power terminals, and switch the load through the NO / COM relay terminals. L and N wires must not be reversed.</p>
+<p>Also verify that the motor running power and starting current do not exceed the relay contact capacity. Motor loads often draw a starting current higher than their normal running current, so a motor can overload the relay even when its rated running power appears acceptable. Keep the receiver away from metal objects, large electronic equipment, strong electromagnetic fields from motors, and other interference sources. If the issue continues, have a qualified electrician check the actual wiring and load specifications.</p>
+</details>
+<details class="question">
+<summary>21. How do I identify the wiring of a 3-wire roller shutter motor, and does the KR2202 provide automatic cut-off at the end position?</summary>
+<p><strong>A:</strong> Do not assume the third wire is ground only because there are three wires, and do not connect only two wires without confirming the wiring. A roller shutter motor may use three wires as Live / Neutral / Ground, or as Common / Up / Down, depending on the motor and controller design. Check the motor nameplate, wiring diagram, or controller manual before wiring.</p>
+<p>The KR2202 is a relay receiver, not a roller shutter limit controller. It can control an external circuit through NO / COM / NC dry contact relay output, but it does not detect whether the shutter has reached the end position and does not provide a separate automatic cut-off limit function. The shutter system must have limit switch / end-stop protection from the motor itself or an external controller. For wiring instructions, please refer to the AC motor wiring diagram.</p>
+</details>
+<details class="question">
+<summary>22. Can I add a signal amplifier to reach at least 100 meters of remote-control distance?</summary>
+<p><strong>A:</strong> The KR2202 uses 433.92MHz RF remote control. The actual control distance is affected by installation position, walls, metal objects, large electronic equipment, electromagnetic interference, remote battery level, and antenna condition. The manual recommends keeping wireless electronic devices away from metal objects, large electronic equipment, electromagnetic fields, and other sources of strong interference.</p>
+<p>We do not recommend modifying the receiver or connecting a signal amplifier by yourself, because this may affect RF compliance, stability, and safety. First fully extend the receiver antenna and keep it away from metal enclosures, motors, and strong interference sources. If the distance is still insufficient, use a longer-range remote control with a proper antenna.</p>
 </details>
 
 
