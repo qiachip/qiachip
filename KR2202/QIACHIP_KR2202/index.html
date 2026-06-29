@@ -90,10 +90,6 @@
       
     </div>
     
-      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
-        
-      </div>
-    
     
       
 
@@ -2795,72 +2791,145 @@
 <li>When using wireless electronic devices, avoid proximity to metal objects, large electronic equipment, electromagnetic fields, and other sources of strong interference.</li>
 </ul>
 <h2 id="frequently-asked-questionsqa">Frequently Asked Questions（Q&amp;A）</h2>
-<p><strong>Q1:</strong> Is KR2202 compatible with 230V AC?</p>
-<p><strong>A:</strong> The KR2202 input voltage is AC 85V-250V, so it is compatible with a 230V AC power supply. Disconnect power before wiring, and make sure the L (Live wire) and N (Neutral wire) are not reversed.</p>
-<p>The Rated Load is Max 1100W. When using a 230V AC load, also confirm that the load power, current, and starting current do not exceed the product specifications and that the installation complies with local electrical safety standards.</p>
-<p><strong>Q2:</strong> Is the KR2202 receiver powered by 220V, or are the switching contacts rated for 220V?</p>
-<p><strong>A:</strong> The KR2202 receiver itself has an input voltage of AC 85V-250V, so the receiver can be powered directly by 110V / 220V / 230V AC.</p>
-<p>Its relay output is a dry contact relay output through the NO (Normally open terminal), COM (Common terminal), and NC (Normally closed terminal) terminals. A dry contact means the relay contact does not output voltage by itself; it works like a switch that opens or closes an external circuit.</p>
-<p><strong>Q3:</strong> Does the relay remain in its set state after power loss?</p>
-<p><strong>A:</strong> The KR2202 relay can operate only when the receiver is powered. When power is off, the receiver and relay will not respond to remote control commands, and the relay output cannot actively remain energized.</p>
-<p>According to the manual, once the receiver and transmitter are paired and an operation mode is selected, the receiver retains this mode even after power off and power on again. However, this does not mean the relay remains energized during a power outage. After power is restored, relay behavior depends on the selected operation mode and later remote control commands.</p>
-<p><strong>Q4:</strong> How do I replace the battery in the remote control?</p>
-<p><strong>A:</strong> First check the case structure of your transmitter. Common remote controls usually require removing the screws or back cover before replacing the battery. When opening the case, do not damage the circuit board, button pad, or battery contacts, and install the new battery according to the original battery model and polarity.</p>
-<p>If you are not sure about the battery model or do not want to open the case yourself, take the remote control to a watch repair shop, electronics repair shop, or battery store and ask them to replace it with the same battery specification.</p>
-<p><strong>Q5:</strong> Do the two relay channels trigger simultaneously, or is there a sequential mode?</p>
-<p><strong>A:</strong> The KR2202 is a 2-CH relay receiver, and the two relay channels are normally controlled by different remote control buttons. The manual provides Momentary mode, Toggle mode, and Latching mode, but it does not provide a separate automatic sequential triggering / time-delay sequence mode.</p>
-<p>In Momentary mode or Toggle mode, button A controls one relay and button B controls the other relay. In Latching mode, pressing A turns relay A on; pressing B turns relay B on while relay A turns off; pressing C turns off the currently activated relay.</p>
-<p><strong>Q6:</strong> Can I customize the remote button labels?</p>
-<p><strong>A:</strong> We offer a variety of labels for you to choose from. If you require customization, there is a minimum order quantity.</p>
-<p><strong>Q7:</strong> How do I set button A to control Relay 1 and button B to control Relay 2 in Momentary mode?</p>
-<p><strong>A:</strong> Yes. To set Momentary mode, click the Learning button on the receiver once. When the indicator light turns off, the receiver enters the setting state. Press button A on the remote control once and wait for the indicator light to flash and turn off. Then press button B on the same remote control once. When the indicator light flashes and then turns on, Momentary mode has been set successfully.</p>
-<p>In Momentary mode, the corresponding relay turns on only while the remote control button is pressed and held. When the button is released, the relay turns off. For two-direction motor control, make sure the wiring follows the KR2202 Wiring diagram for AC motors or Wiring diagram for DC motors, and ensure that the forward and reverse circuits cannot be energized at the same time. The load must not exceed the Rated Load: Max 1100W.</p>
-<p><strong>Q8:</strong> Can one remote control Relay 1 and another remote control Relay 2?</p>
-<p><strong>A:</strong> Yes, the KR2202 is a 2-CH relay receiver, so the two relay channels must be assigned to two different transmitter buttons during the same mode-setting sequence. For example, in Toggle mode, click the Learning button on the receiver twice. When the indicator light turns off, the receiver enters the setting state. Press the button on the first remote that you want to use for Relay 1, then wait for the indicator light to flash and turn off again. Press the button on the second remote that you want to use for Relay 2. When the indicator light flashes and then turns on, Toggle mode has been set successfully.</p>
-<p>If the buttons were assigned incorrectly, click the Learning button 8 times to perform the Reset function. After reset, all paired transmitters will be cleared, and the operation mode and transmitter buttons must be paired again.</p>
-<p><strong>Q9:</strong> Can I pair multiple transmitters in Momentary mode?</p>
-<p><strong>A:</strong> Yes. You can pair multiple transmitters with the receiver. When adding additional remotes, do not press the receiver button 8 times before each pairing, because pressing it 8 times performs a reset and clears all paired remotes.</p>
-<p><strong>Q10:</strong> Why does a 3-button UP / STOP / DOWN remote not work correctly in Toggle mode?</p>
-<p><strong>A:</strong> If you want the UP / STOP / DOWN buttons to work as motor direction and stop commands, Toggle mode is usually not the correct operation mode. According to the KR2202 manual, Toggle mode works as follows: press a remote control button once and the corresponding relay turns on; press the same button again and the corresponding relay turns off.</p>
-<p>For a 3-button transmitter, Latching mode is normally the better match. In Latching mode, pressing button A turns relay A on; pressing button B turns relay B on while relay A turns off; pressing button C turns off the currently activated relay. Latching mode requires a remote control with at least three buttons. Reset the receiver if necessary, then set Latching mode again and wait for the indicator light to flash / turn off / turn on at each step before pressing the next button.</p>
-<p><strong>Q11:</strong> Can one remote control one switch in Momentary mode and another in Toggle mode?</p>
-<p><strong>A:</strong> In theory, this is possible, but it is not recommended. In practical use, one remote controlling two switches in different modes may lead to unstable or unintended behavior, especially when the two controlled circuits are close to each other.</p>
-<p>In most cases, using two separate remotes is the better option.</p>
-<p><strong>Q12:</strong> Why do both A and B buttons control Relay 1 only after I pair Momentary mode?</p>
-<p><strong>A:</strong> Press the button on the receiver 8 times to reset. After resetting, if pressing a button on the remote control fails to control the device, the reset is complete.</p>
-<p>Depending on your desired pairing mode, press the corresponding number of buttons on the receiver until the indicator light turns off. Then press the button for the first remote control you want to pair.</p>
-<p>Here's the important part: After pressing the button, wait for the indicator light to flash and then turn off before pressing the button for the second remote control you want to pair.</p>
-<p>Only after both buttons are paired is the pairing considered successful.</p>
-<p><strong>Q13:</strong> How should I wire the KR2202?</p>
-<p><strong>A:</strong> The wiring depends on your application. For motor control, follow the KR2202 Wiring diagram for AC motors or Wiring diagram for DC motors in the product manual. The receiver can be used for one reversible motor or two one-direction loads, depending on how the relay outputs are wired.</p>
-<p>Disconnect power before wiring, do not reverse L and N, and make sure the load remains within the Rated Load: Max 1100W.</p>
-<p><strong>Q14:</strong> Can one remote control one reversible motor or two one-direction motors?</p>
-<p><strong>A:</strong> The KR2202 is a 2-CH relay receiver with NO (Normally open terminal), COM (Common terminal), and NC (Normally closed terminal) relay contacts. It can be used for one reversible motor or for two one-direction loads / one-direction motors, provided that the wiring matches the required motor-control logic.</p>
-<p>For a reversible motor, follow the KR2202 Wiring diagram for AC motors or Wiring diagram for DC motors, and make sure the motor or external control circuit includes proper limit and interlock protection. For two one-direction motors, verify each motor's voltage, current, and starting current. The application must remain within the KR2202 Rated Load: Max 1100W.</p>
-<p><strong>Q15:</strong> Can the KR2202 be used for winch raise / lower control?</p>
-<p><strong>A:</strong> The KR2202 can be used in some winch / hoist / motor raise-and-lower applications, but you must first confirm that the winch motor voltage, running current, starting current, and control method are compatible with the KR2202. The KR2202 input voltage is AC 85V-250V, and the Rated Load is Max 1100W.</p>
-<p>If the winch requires both raise and lower directions, follow the KR2202 Wiring diagram for AC motors or Wiring diagram for DC motors according to the actual motor type, and make sure the forward and reverse circuits cannot be energized at the same time. The winch system should also have its own limit switch, overload protection, and safety brake / stop protection. Disconnect power before wiring, and have the wiring checked by a qualified person.</p>
-<p><strong>Q16:</strong> Is the KR2202 suitable for a roller shutter or garage shutter?</p>
-<p><strong>A:</strong> The KR2202 can be used for compatible AC motor applications, including some garage shutter / roller shutter systems. The manual provides a Wiring diagram for AC motors. The input power is AC 85V-250V, and the Rated Load is Max 1100W.</p>
-<p>If the shutter motor or motor controller already has limit protection, Momentary mode is usually recommended so that the relay is energized only while the button is held. If two-direction interlocking is required, Latching mode may be used: button A turns relay A on, button B turns relay B on while relay A turns off, and button C turns off the currently activated relay. During wiring, L and N wires must not be reversed, and the receiver should be kept away from strong electromagnetic interference sources.</p>
-<p><strong>Q17:</strong> Can I use the KR2202 for gate open / close control in Momentary mode?</p>
-<p><strong>A:</strong> Yes, but it depends on the input type of the gate controller. The KR2202 provides dry contact relay output through the NO / COM / NC terminals. If your gate controller supports dry contact input terminals, such as separate OPEN / CLOSE / STOP inputs, the two relay channels of the KR2202 can be used to trigger the open and close commands.</p>
-<p>If you want button A to open and button B to close, and you want the command to be active only while the button is pressed, use Momentary mode. In Momentary mode, the corresponding relay turns on while the remote control button is held and turns off when the button is released. Disconnect power before wiring, and confirm the COM / NO wiring according to the gate controller manual. Do not connect the KR2202 directly to terminals that are not designed for dry contact input.</p>
-<p><strong>Q18:</strong> Can it be connected to a selector switch for motor direction control?</p>
-<p><strong>A:</strong> The KR2202 does not provide a dedicated wired selector-switch input. It is designed to receive commands from a 433.92MHz RF transmitter and then switch the relay contacts (NO / COM / NC) on the receiver. Therefore, a standard selector switch cannot be connected directly to the KR2202 as a remote input.</p>
-<p>If your motor controller supports dry contact command inputs, the KR2202 relay output can be used to replace or parallel an external control input, allowing the remote control buttons to select motor direction. Whether a physical selector switch can also be used depends on the wiring design of the motor controller. Do not modify or wire into the KR2202 Learning button or internal circuit for this purpose.</p>
-<p><strong>Q19:</strong> Are the 220V terminals and wire size safe for this application?</p>
-<p><strong>A:</strong> The KR2202 electrical characteristics specify Input voltage: AC 85V-250V and Rated Load: Max 1100W. For AC 220V / 230V applications, wiring must comply with local electrical safety standards and conductor-size requirements, and installation should be performed by a qualified person.</p>
-<p>If the installation requires input cables of at least 0.75mm² and the receiver terminal block cannot securely clamp that conductor size, do not force the wire into the terminal. Use a compliant junction box, terminal block, terminal adapter, or other approved wiring method. Disconnect power before wiring. L (Live wire) and N (Neutral wire) must not be reversed. All conductors must be securely fixed to prevent looseness, overheating, or short circuit.</p>
-<p><strong>Q20:</strong> Why does the system fail after I connect the load?</p>
-<p><strong>A:</strong> If the receiver and transmitter work correctly with no load, but the system fails when the pool cover motor or another load is connected, check the wiring, load rating, and motor starting current first. The KR2202 input power is AC 85V-250V, and the Rated Load is Max 1100W. For an AC motor, follow the Wiring diagram for AC motors: connect L / N to the input power terminals, and switch the load through the NO / COM relay terminals. L and N wires must not be reversed.</p>
-<p>Also verify that the motor running power and starting current do not exceed the relay contact capacity. Motor loads often draw a starting current higher than their normal running current, so a motor can overload the relay even when its rated running power appears acceptable. Keep the receiver away from metal objects, large electronic equipment, strong electromagnetic fields from motors, and other interference sources. If the issue continues, have a qualified electrician check the actual wiring and load specifications.</p>
-<p><strong>Q21:</strong> How do I identify the wiring of a 3-wire roller shutter motor, and does the KR2202 provide automatic cut-off at the end position?</p>
-<p><strong>A:</strong> Do not assume the third wire is ground only because there are three wires, and do not connect only two wires without confirming the wiring. A roller shutter motor may use three wires as Live / Neutral / Ground, or as Common / Up / Down, depending on the motor and controller design. Check the motor nameplate, wiring diagram, or controller manual before wiring.</p>
-<p>The KR2202 is a relay receiver, not a roller shutter limit controller. It can control an external circuit through NO / COM / NC dry contact relay output, but it does not detect whether the shutter has reached the end position and does not provide a separate automatic cut-off limit function. The shutter system must have limit switch / end-stop protection from the motor itself or an external controller. For wiring instructions, please refer to the AC motor wiring diagram.</p>
-<p><strong>Q22:</strong> Can I add a signal amplifier to reach at least 100 meters of remote-control distance?</p>
-<p><strong>A:</strong> The KR2202 uses 433.92MHz RF remote control. The actual control distance is affected by installation position, walls, metal objects, large electronic equipment, electromagnetic interference, remote battery level, and antenna condition. The manual recommends keeping wireless electronic devices away from metal objects, large electronic equipment, electromagnetic fields, and other sources of strong interference.</p>
-<p>We do not recommend modifying the receiver or connecting a signal amplifier by yourself, because this may affect RF compliance, stability, and safety. First fully extend the receiver antenna and keep it away from metal enclosures, motors, and strong interference sources. If the distance is still insufficient, use a longer-range remote control with a proper antenna.</p>
+<p><strong>Question 1:</strong> Why can my remote control Relay 1 but not Relay 2?</p>
+<p><strong>Answer:</strong></p>
+<p>The most common reason is that Relay 2 has not been paired with a remote button yet.</p>
+<p>KR2202 has two relay channels. Pairing one button only sets one relay channel. To control Relay 2, you need to pair another remote button in the same learning flow.</p>
+<p>For Momentary mode:</p>
+<ol>
+<li>Press the Learning button 1 time.</li>
+<li>Press the button for Relay 1 and wait until the indicator light flashes and turns off.</li>
+<li>Press the button for Relay 2 and wait until the indicator light flashes and turns on.</li>
+</ol>
+<p>If only Relay 1 works, reset the receiver and pair both buttons again.</p>
+<p><strong>Question 2:</strong> Why do both A and B buttons control Relay 1 only after KR2202 Momentary pairing?</p>
+<p><strong>Answer:</strong></p>
+<p>This is usually a pairing issue, not a defective receiver.</p>
+<p>Re-pair the receiver with the steps below to fix it:</p>
+<ol>
+<li>Press the Learning button 8 times to reset.</li>
+<li>Press the Learning button 1 time for Momentary mode.</li>
+<li>Press button A and wait until the indicator light flashes and turns off.</li>
+<li>Press button B and wait until the indicator light flashes and turns on.</li>
+</ol>
+<p>Do not stop after pairing only button A. KR2202 needs both buttons to finish the 2-channel setup.</p>
+<p><strong>Question 3:</strong> What is the difference between Momentary, Toggle, and Latching mode?</p>
+<p><strong>Answer:</strong></p>
+<p>KR2202 has three working modes, and each mode changes how the relay responds to the remote button.</p>
+<ul>
+<li>Momentary mode: the relay turns on only while you hold the button. When you release the button, the relay turns off.</li>
+<li>Toggle mode: press the same button once to turn the relay on, and press it again to turn the relay off.</li>
+<li>Latching mode: one button turns one relay on, another button turns the other relay on and turns the first relay off, and a stop button turns the active relay off.</li>
+</ul>
+<p>Use Momentary mode for hold-to-run control, Toggle mode for simple on / off control, and Latching mode when two directions should not turn on at the same time.</p>
+<p><strong>Question 4:</strong> Do the two relay channels trigger at the same time or one by one?</p>
+<p><strong>Answer:</strong></p>
+<p>No, KR2202 does not have an automatic sequence mode.</p>
+<p>The two relay channels are normally controlled separately by different remote buttons. In Momentary mode or Toggle mode, button A can control Relay 1 and button B can control Relay 2.</p>
+<p><strong>Question 5:</strong> How do I set two remotes to control Relay 1 and Relay 2 on KR2202?</p>
+<p><strong>Answer:</strong></p>
+<p>Yes. You can pair one button on the first remote to Relay 1 and one button on the second remote to Relay 2.</p>
+<p>Example for Toggle mode:</p>
+<ol>
+<li>Press the Learning button on the receiver 2 times.</li>
+<li>Wait until the indicator light turns off.</li>
+<li>Press the button on the first remote for Relay 1.</li>
+<li>Wait until the indicator light flashes and turns off.</li>
+<li>Press the button on the second remote for Relay 2.</li>
+<li>When the indicator light flashes and turns on, the setup is finished.</li>
+</ol>
+<p>If the pairing is wrong, press the Learning button 8 times to reset. Reset will delete all paired remotes.</p>
+<p><strong>Question 6:</strong> Can I pair multiple remotes to channels A and B in Momentary mode?</p>
+<p><strong>Answer:</strong></p>
+<p>Yes. KR2202 can pair multiple remotes to channels A and B in Momentary mode.</p>
+<p>Add each new remote through the normal pairing steps. Do not press the Learning button 8 times unless you want to reset the receiver, because 8 presses delete all paired remotes.</p>
+<p><strong>Question 7:</strong> Why does a 3-button UP / STOP / DOWN remote not work for motor control in Toggle mode?</p>
+<p><strong>Answer:</strong></p>
+<p>It fails because Toggle mode is not the right mode for UP / STOP / DOWN motor control. Use Latching mode instead.</p>
+<p>The key step is pairing UP and DOWN in the same Latching mode learning flow:</p>
+<ol>
+<li>Reset the receiver if the old pairing is wrong.</li>
+<li>Press the Learning button 3 times to enter Latching mode.</li>
+<li>Press UP first, then wait until the indicator light flashes and turns off.</li>
+<li>Press DOWN next, then wait until the indicator light flashes and turns on.</li>
+</ol>
+<p>After this setup, UP runs the motor up, DOWN runs the motor down and turns UP off, and STOP turns the active relay off. For motor control, make sure the up and down directions cannot turn on at the same time.</p>
+<p><strong>Question 8:</strong> How do I use KR2202 Momentary mode to control a two-direction motor with button A and button B?</p>
+<p><strong>Answer:</strong></p>
+<p>Yes. You can use KR2202 Momentary mode for a two-direction motor with button A and button B.</p>
+<p>Steps:</p>
+<ol>
+<li>Press the Learning button on the receiver 1 time.</li>
+<li>Wait until the indicator light turns off.</li>
+<li>Press button A on the remote.</li>
+<li>Wait until the indicator light flashes and turns off.</li>
+<li>Press button B on the remote.</li>
+<li>When the indicator light flashes and turns on, the setup is finished.</li>
+</ol>
+<p>In Momentary mode, the relay turns on only while you hold the button. For a two-direction motor, both directions must not turn on at the same time.</p>
+<p><strong>Question 9:</strong> Does the KR2202 relay stay on after power loss?</p>
+<p><strong>Answer:</strong></p>
+<p>No. The relay cannot stay on when the power is off.</p>
+<p>KR2202 can remember the paired remote and working mode after power loss. But the relay state needs power. After power comes back, the next relay action depends on the mode and remote command.</p>
+<p><strong>Question 10:</strong> Is the KR2202 receiver powered by 220V, or are the relay contacts rated for 220V?</p>
+<p><strong>Answer:</strong></p>
+<p>Yes, the KR2202 receiver can be powered by 220V AC. But the relay contacts do not output 220V by themselves.</p>
+<p>The relay output is a dry contact. The NO / COM / NC terminals work like a switch for the circuit you connect.</p>
+<p><strong>Question 11:</strong> Is KR2202 compatible with 230V AC?</p>
+<p><strong>Answer:</strong></p>
+<p>Yes. KR2202 can work with 230V AC power.</p>
+<p>Its input voltage range is AC 85V-250V, so 230V AC is within the supported power range.</p>
+<p><strong>Question 12:</strong> How should I wire KR2202 for my load?</p>
+<p><strong>Answer:</strong></p>
+<p>It depends on what load you want to control.</p>
+<p>Use the wiring diagram that matches your load, such as a motor, lamp, or other device. Turn off power before wiring. For AC power wiring, do not reverse L and N, and keep the load within Max 1100W.</p>
+<p><strong>Question 13:</strong> Can one KR2202 remote control two garage door motors?</p>
+<p><strong>Answer:</strong></p>
+<p>It depends on what you mean by garage door motor.</p>
+<p>If you mean a normal garage door opener or controller input, yes. KR2202 can work like a dry contact switch signal, similar to pressing a wall button.</p>
+<p>Do not use KR2202 to directly drive bare garage door motors. KR2202 is a relay receiver, not a garage door motor controller.</p>
+<p><strong>Question 14:</strong> Can KR2202 control a winch raise and lower motor?</p>
+<p><strong>Answer:</strong></p>
+<p>Yes, for some winch raise / lower systems, but only if the winch motor matches KR2202.</p>
+<p>Check the motor voltage, running current, and starting current first. KR2202 input is AC 85V-250V, and the rated load is Max 1100W. For raise / lower control, the up and down directions must not turn on at the same time.</p>
+<p><strong>Question 15:</strong> Is KR2202 suitable for a roller shutter or garage shutter motor?</p>
+<p><strong>Answer:</strong></p>
+<p>Yes, KR2202 can be used for some roller shutter or garage shutter motors.</p>
+<p>Key points:</p>
+<ul>
+<li>The shutter motor or controller must match KR2202 power and load limits: AC 85V-250V input and Max 1100W load.</li>
+<li>Momentary mode is usually a good choice because the motor runs only while you hold the remote button.</li>
+<li>If the shutter has a manual wall switch, connect KR2202 relay output COM and NO in parallel with the two terminals of the manual switch to add remote control.</li>
+</ul>
+<p><strong>Question 16:</strong> Can KR2202 use button A and button B for gate open and close in Momentary mode?</p>
+<p><strong>Answer:</strong></p>
+<p>Yes, if your gate controller has dry contact OPEN and CLOSE inputs.</p>
+<p>Use Relay 1 for OPEN and Relay 2 for CLOSE. Set KR2202 to Momentary mode if you want the command to work only while you hold the button. Do not connect KR2202 to terminals that are not made for dry contact input.</p>
+<p><strong>Question 17:</strong> How do I identify a 3-wire roller shutter motor, and does KR2202 stop at the end position?</p>
+<p><strong>Answer:</strong></p>
+<p>No, do not assume the third wire is ground. Also, KR2202 does not stop the shutter at the end position by itself.</p>
+<p>A 3-wire shutter motor may be Live / Neutral / Ground, or it may be Common / Up / Down. Check the motor label, wiring diagram, or controller manual before wiring. KR2202 only turns the relay on and off; the shutter motor or controller must have its own limit switch or end stop.</p>
+<p><strong>Question 18:</strong> Why does KR2202 work with no load but fail when I connect a pool cover motor?</p>
+<p><strong>Answer:</strong></p>
+<p>If KR2202 works with no load but fails when you connect the pool cover motor, KR2202 is probably not the broken part. The problem is usually the motor load or the motor control method.</p>
+<p>The two most likely reasons are:</p>
+<ol>
+<li>
+<p>The motor starting current is too high. A motor needs much more current when it starts than when it is running. Even if the motor running power is under Max 1100W, the starting current may still be too high for KR2202. In this case, do not use KR2202 to switch the motor power directly. Use a proper motor controller or contactor, or confirm that the starting current is within the KR2202 limit.</p>
+</li>
+<li>
+<p>The pool cover motor may need its own control input. KR2202 is a relay receiver, not a motor controller. It only works like a switch through NO and COM. If the pool cover system has a wall switch or control input, use KR2202 to trigger that input instead of directly switching the motor power wires.</p>
+</li>
+</ol>
+<p>Check the motor label or controller manual for starting current and control input type. If you are not sure, ask an electrician to check it before wiring.</p>
+<p><strong>Question 19:</strong> Can one remote control two KR2202 receivers in Momentary mode and Toggle mode?</p>
+<p><strong>Answer:</strong></p>
+<p>Yes, it is possible, but we do not recommend it if the two KR2202 receivers are close to each other.</p>
+<p>One remote sends the same RF signal. If both receivers are within range, both may receive the signal and operate. To avoid interference, keep the two receivers far enough apart so they are not in the same remote-control range, or use separate remotes.</p>
+<p><strong>Question 20:</strong> Can I add a signal amplifier to KR2202 to reach 100 meters?</p>
+<p><strong>Answer:</strong></p>
+<p>No, we do not recommend adding a signal amplifier to KR2202.</p>
+<p>KR2202 uses 433.92MHz remote control. To improve distance, fully extend the receiver antenna and keep it away from metal and motors. If you need about 100 meters, use a longer-range remote with an antenna instead of modifying the receiver.</p>
 
 
 
@@ -2972,7 +3041,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.expand", "navigation.indexes", "navigation.top", "content.comments"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"default": "latest", "provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.expand", "navigation.indexes", "navigation.top", "content.comments"], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
