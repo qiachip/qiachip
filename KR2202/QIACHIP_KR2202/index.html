@@ -2828,7 +2828,7 @@
 <p>The two relay channels are normally controlled separately by different remote buttons. In Momentary mode or Toggle mode, button A can control Relay 1 and button B can control Relay 2.</p>
 <p><strong>Question 5:</strong> How do I set two remotes to control Relay 1 and Relay 2 on KR2202?</p>
 <p><strong>Answer:</strong></p>
-<p>Yes. You can pair one button on the first remote to Relay 1 and one button on the second remote to Relay 2.</p>
+<p>To set two remotes to control Relay 1 and Relay 2, pair one button from the first remote to Relay 1 and one button from the second remote to Relay 2 in the same learning flow.</p>
 <p>Example for Toggle mode:</p>
 <ol>
 <li>Press the Learning button on the receiver 2 times.</li>
@@ -2842,7 +2842,8 @@
 <p><strong>Question 6:</strong> Can I pair multiple remotes to channels A and B in Momentary mode?</p>
 <p><strong>Answer:</strong></p>
 <p>Yes. KR2202 can pair multiple remotes to channels A and B in Momentary mode.</p>
-<p>Add each new remote through the normal pairing steps. Do not press the Learning button 8 times unless you want to reset the receiver, because 8 presses delete all paired remotes.</p>
+<p>For each new remote, pair both buttons in the Momentary learning flow. Do not pair only button A.</p>
+<p>Do not press the Learning button 8 times unless you want to reset the receiver, because 8 presses delete all paired remotes.</p>
 <p><strong>Question 7:</strong> Why does a 3-button UP / STOP / DOWN remote not work for motor control in Toggle mode?</p>
 <p><strong>Answer:</strong></p>
 <p>It fails because Toggle mode is not the right mode for UP / STOP / DOWN motor control. Use Latching mode instead.</p>
@@ -2867,6 +2868,7 @@
 <li>When the indicator light flashes and turns on, the setup is finished.</li>
 </ol>
 <p>In Momentary mode, the relay turns on only while you hold the button. For a two-direction motor, both directions must not turn on at the same time.</p>
+<p>If the motor system has a dedicated control input, trigger the control input with KR2202 instead of switching the motor power wires directly.</p>
 <p><strong>Question 9:</strong> Does the KR2202 relay stay on after power loss?</p>
 <p><strong>Answer:</strong></p>
 <p>No. The relay cannot stay on when the power is off.</p>
@@ -2883,6 +2885,7 @@
 <p><strong>Answer:</strong></p>
 <p>It depends on what load you want to control.</p>
 <p>Use the wiring diagram that matches your load, such as a motor, lamp, or other device. Turn off power before wiring. For AC power wiring, do not reverse L and N, and keep the load within Max 1100W.</p>
+<p>L and N power the KR2202 receiver itself. The relay terminals do not output power by themselves; they are dry contacts and work like switches for the load circuit you connect.</p>
 <p><strong>Question 13:</strong> Can one KR2202 remote control two garage door motors?</p>
 <p><strong>Answer:</strong></p>
 <p>It depends on what you mean by garage door motor.</p>
