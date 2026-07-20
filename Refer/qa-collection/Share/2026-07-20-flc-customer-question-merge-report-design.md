@@ -60,8 +60,11 @@ For a topic with only one source ID, state that it is a standalone topic rather 
 
 ## Output
 
-- Create: `Refer/qa-collection/Share/FLC_Customer_Question_Merge_Report_2026-07-20.md`
-- Internal report language: Chinese.
+- Create Chinese report: `Refer/qa-collection/Share/FLC_Customer_Question_Merge_Report_ZH_2026-07-20.md`
+- Create English report: `Refer/qa-collection/Share/FLC_Customer_Question_Merge_Report_EN_2026-07-20.md`
+- The two reports must use the same topic order, source IDs, product models, merge decisions, and pending-classification appendix.
+- The Chinese report is the internal review version.
+- The English report uses short, clear sentences for non-native readers and is the basis for later customer-facing FAQ work.
 - Do not modify the source workbook, the translated CSV, or files under `docs/`.
 
 ## Validation
@@ -71,4 +74,5 @@ For a topic with only one source ID, state that it is a standalone topic rather 
 - Multi-label IDs may appear in more than one section.
 - The eight pending IDs appear only in the pending-classification appendix unless already approved under a topic.
 - Every topic contains an index, merge logic, merged question, and later-analysis focus.
+- The Chinese and English reports have identical topic coverage, ID indexes, product-model scope, and merge relationships.
 - No answer text or unsupported product fact is added.
