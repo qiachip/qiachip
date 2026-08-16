@@ -190,11 +190,17 @@ if ($text -match 'KR1202|RX480E|68x48x16|DC 5V-60V|DC motors') {
 运行：
 
 ```powershell
-git diff --check -- 'Refer/notion-manual-template-blueprint-test.md'
-git status --short -- 'Refer/notion-manual-template-blueprint-test.md' 'docs'
+$path = 'Refer\notion-manual-template-blueprint-test.md'
+$lines = Get-Content -Encoding UTF8 $path
+for ($i = 0; $i -lt $lines.Count; $i++) {
+  if ($lines[$i] -match '[ \t]+$') {
+    throw "Trailing whitespace at line $($i + 1)."
+  }
+}
+git status --short -- 'Refer/notion-manual-template-blueprint-test.md'
 ```
 
-预期：`git diff --check` 无输出；状态只显示新的 `Refer/notion-manual-template-blueprint-test.md`，没有本任务产生的 `docs/` 变更。
+预期：没有尾随空格错误；状态只显示新的 `Refer/notion-manual-template-blueprint-test.md`。现有工作区的其他改动不属于本任务，不据此判断本模板失败。
 
 ### 任务 3：审阅并提交模板
 
@@ -206,10 +212,10 @@ git status --short -- 'Refer/notion-manual-template-blueprint-test.md' 'docs'
 运行：
 
 ```powershell
-git diff -- 'Refer/notion-manual-template-blueprint-test.md'
+Get-Content -Raw -Encoding UTF8 'Refer\notion-manual-template-blueprint-test.md'
 ```
 
-预期：差异只包含严格蓝图模板、覆盖表和缺口报告，不包含产品事实、站点配置或公开文档改动。
+预期：文件只包含严格蓝图模板、覆盖表和缺口报告，不包含产品事实、站点配置或公开文档内容。
 
 - [ ] **步骤 2：提交单一产物**
 
@@ -218,7 +224,8 @@ git diff -- 'Refer/notion-manual-template-blueprint-test.md'
 ```powershell
 git add -- 'Refer/notion-manual-template-blueprint-test.md'
 git diff --cached --name-only
-git commit -m "docs: add Notion blueprint test template"
+git diff --cached --check
+git commit -m "docs: add Notion blueprint test template (task 3/3)"
 ```
 
 预期：暂存清单只有 `Refer/notion-manual-template-blueprint-test.md`，提交成功且不推送。
