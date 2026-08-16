@@ -225,7 +225,7 @@ Get-Content -Raw -Encoding UTF8 'Refer\notion-manual-template-blueprint-test.md'
 
 预期：文件只包含严格蓝图模板、覆盖表和缺口报告，不包含产品事实、站点配置或公开文档内容。
 
-- [ ] **步骤 2：提交单一产物**
+- [x] **步骤 2：提交单一产物**
 
 运行：
 
