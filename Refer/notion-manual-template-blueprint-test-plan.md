@@ -22,7 +22,7 @@
 - 参考：`Refer/notion-manual-standard-blueprint.md`
 - 参考：`Refer/notion-manual-template-blueprint-test-design.md`
 
-- [ ] **步骤 1：确认输入文件与目标边界**
+- [x] **步骤 1：确认输入文件与目标边界**
 
 运行：
 
@@ -42,7 +42,7 @@ if (Test-Path 'docs\notion-manual-template-blueprint-test.md') {
 
 预期：输出 `Template inputs and public-site boundary confirmed.`。
 
-- [ ] **步骤 2：创建内部审阅头和占位符说明**
+- [x] **步骤 2：创建内部审阅头和占位符说明**
 
 在目标文件顶部写明：
 
@@ -55,7 +55,7 @@ if (Test-Path 'docs\notion-manual-template-blueprint-test.md') {
 QIACHIP <Model> ( <Series> Series ) Instruction Manual <Voltage Range> <RF Frequency> RF <Product Type>
 ```
 
-- [ ] **步骤 3：写入完整 Notion 正文骨架**
+- [x] **步骤 3：写入完整 Notion 正文骨架**
 
 正文必须按以下顺序写入，章节级使用 `#`，子节使用 `##`，标题不加粗：
 
@@ -92,7 +92,7 @@ Version / Last Updated / Model blockquote
 - `Warning` 与 `NOTE` 都展示，并注明实际产品至少保留一类、内容必须按事实归类。
 - FAQ 和产品专属附加块标为可选，产品专属附加块保持最后。
 
-- [ ] **步骤 4：写入蓝图覆盖与缺口报告**
+- [x] **步骤 4：写入蓝图覆盖与缺口报告**
 
 正文结束后增加一张 `Blueprint rule | Template evidence | Status` 表。至少逐项记录：
 
@@ -114,7 +114,7 @@ Version / Last Updated / Model blockquote
 **文件：**
 - 验证：`Refer/notion-manual-template-blueprint-test.md`
 
-- [ ] **步骤 1：运行结构与内容断言**
+- [x] **步骤 1：运行结构与内容断言**
 
 运行：
 
@@ -147,6 +147,14 @@ $required = @(
 )
 foreach ($item in $required) {
   if (-not $text.Contains($item)) { throw "Missing required template evidence: $item" }
+}
+
+$bodyStart = [regex]::Match(
+  $text,
+  '(?s)<!-- BEGIN NOTION BODY -->\s*(?<first>[^\r\n]+)'
+)
+if (-not $bodyStart.Success -or -not $bodyStart.Groups['first'].Value.StartsWith('[IMAGE BLOCK:')) {
+  throw 'Product Diagram is not the first Notion body block.'
 }
 
 if ($text -match '(?m)^#{1,6}\s+\*\*') {
@@ -185,7 +193,7 @@ if ($text -match 'KR1202|RX480E|68x48x16|DC 5V-60V|DC motors') {
 
 预期：输出 `Notion template deterministic checks passed.`。
 
-- [ ] **步骤 2：检查文件范围与格式**
+- [x] **步骤 2：检查文件范围与格式**
 
 运行：
 
@@ -207,7 +215,7 @@ git status --short -- 'Refer/notion-manual-template-blueprint-test.md'
 **文件：**
 - 创建：`Refer/notion-manual-template-blueprint-test.md`
 
-- [ ] **步骤 1：审阅差异**
+- [x] **步骤 1：审阅差异**
 
 运行：
 
