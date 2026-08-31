@@ -18,7 +18,7 @@
         <link rel="prev" href="../../../RX470-4/QIACHIP_RX470-4/">
       
       
-        <link rel="next" href="../../RX480E-4A/QIACHIP_RX480E-4A/">
+        <link rel="next" href="../../RX480E-4/QIACHIP_RX480E-4/">
       
       
       <link rel="icon" href="../../../images/qiachip-logo.svg">
@@ -2129,6 +2129,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#frequently-asked-questions-qa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frequently Asked Questions (Q&amp;A)
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2145,12 +2154,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../RX480E-4A/QIACHIP_RX480E-4A/" class="md-nav__link">
+      <a href="../../RX480E-4/QIACHIP_RX480E-4/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
-    RX480E-4A
+    RX480E-4
     
   </span>
   
@@ -2659,6 +2668,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#frequently-asked-questions-qa" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frequently Asked Questions (Q&amp;A)
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2838,6 +2856,34 @@ Details of the 433MHz antenna are as follows:</p>
 <li>Ensure proper grounding when using the device.</li>
 <li>RF devices are voltage-sensitive. If the power supply is unstable or has significant ripple, add filtering at the power input terminal to ensure the supply voltage does not exceed the product’s maximum operating voltage.</li>
 </ol>
+<h2 id="frequently-asked-questions-qa">Frequently Asked Questions (Q&amp;A)</h2>
+<p><strong>Question 1:</strong> Does RX480E-1A have a Learning button on the module?</p>
+<p><strong>Answer:</strong></p>
+<p>No. RX480E-1A has no Learning button on the module. It has a KEY pin instead.</p>
+<p>Connect an external switch or button to the KEY pin before use. All pairing and mode settings use this external button. Without it, you cannot pair a remote control or set a working mode.</p>
+<p><strong>Question 2:</strong> How to set Power-On Auto-Engagement on RX480E-1A?</p>
+<p><strong>Answer:</strong></p>
+<p>Connect an external button to the KEY pin first. Then press the external button 6 times. The indicator on the module flashes and then turns off. The setting is complete.</p>
+<p>After this setting, the output pin outputs a high level directly every time the module is powered on.</p>
+<p><strong>Question 3:</strong> Can the RX480E-1A output drive a load directly? How to connect the output to an external transistor or relay?</p>
+<p><strong>Answer:</strong></p>
+<p>We do not recommend connecting the RX480E-1A output to a load directly. It provides a high-level signal, and the maximum output current is 10 mA.</p>
+<p>The output needs a transistor to increase the current before driving a relay, motor, or other load. This wiring requires basic circuit design knowledge. You can also follow our wiring diagram directly.</p>
+<p><a class="glightbox" href="../QIACHIP_RX480E-1A_Wiring_Diagram_2.webp" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="QIACHIP RX480E-1A 5V relay wiring diagram" class="center" loading="lazy" src="../QIACHIP_RX480E-1A_Wiring_Diagram_2.webp" width="68%" /></a></p>
+<p><strong>Question 4:</strong> Do I need to pair the transmitter and receiver again after a long power outage?</p>
+<p><strong>Answer:</strong></p>
+<p>No. Once the transmitter and receiver are paired, they do not need to be paired again after a power outage.</p>
+<p><strong>Question 5:</strong> Is the RX480E-1A output a high-level or low-level output?</p>
+<p><strong>Answer:</strong></p>
+<p>The RX480E-1A output is a high-level output.</p>
+<p>If you need low-level output, add a transistor inverting circuit after the output. This wiring requires basic circuit design knowledge.</p>
+<p><strong>Question 6:</strong> Is Momentary mode the factory default output mode for RX480E-1A?</p>
+<p><strong>Answer:</strong></p>
+<p>No. RX480E-1A has no factory default mode. Connect an external button to the KEY pin, then choose the mode you need. You can find the pairing steps in the Function description and setting method section above.</p>
+<p><strong>Question 7:</strong> Does the RX480E-1A receiver support EV1527 encoding? Can it pair with other EV1527 remote controls?</p>
+<p><strong>Answer:</strong></p>
+<p>Yes. The RX480E-1A receiver uses EV1527 learning code. Pair the remote control and receiver once before use.</p>
+<p>We recommend QIACHIP remotes. We do not guarantee pairing compatibility with other-brand remotes.</p>
 
 
 
