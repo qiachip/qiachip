@@ -329,9 +329,9 @@ glightbox: false  # 禁用当前页面的灯箱效果
 
 <div class="product-list">
 
-  <a href="RX480E/RX480E-4A/QIACHIP_RX480E-4A/">
-    <img src="RX480E/RX480E-4A/QIACHIP_RX480E-4A_Product_Diagram.webp" alt="RX480E-4A Product Image">
-    <h2>RX480E-4A</h2>
+  <a href="RX480E/RX480E-4/QIACHIP_RX480E-4/">
+    <img src="RX480E/RX480E-4/QIACHIP_RX480E-4_Product_Diagram.webp" alt="RX480E-4 Product Image">
+    <h2>RX480E-4</h2>
     
   </a>
 
@@ -434,6 +434,12 @@ glightbox: false  # 禁用当前页面的灯箱效果
   <a href="TX181-4/QIACHIP_TX181-4/">
     <img src="TX181-4/QIACHIP_TX181-4_Product_Diagram.webp" alt="TX181-4 Product Image">
     <h2>TX181-4</h2>
+    
+  </a>
+
+  <a href="TX183-4/QIACHIP_TX183-4/">
+    <img src="TX183-4/QIACHIP_TX183-4_Product_Diagram.webp" alt="TX183-4 Product Image">
+    <h2>TX183-4</h2>
     
   </a>
 
