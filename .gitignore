@@ -22,3 +22,13 @@ temp/
 # 大体积素材（本地保留，不进仓库）
 Forum/RX480E/客户问题视频/
 AI_image/
+
+# 内部资料（本地保留，不进仓库）
+/Refer/
+/Forum/
+/tests/
+/tools/
+/shopify/
+/CLAUDE.md
+/AGENTS.md
+/更新说明书流程.md
