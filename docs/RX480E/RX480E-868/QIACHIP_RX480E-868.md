@@ -158,3 +158,67 @@ Press the learning button on the transmitter module 5 times. The red indicator o
 1. This product is a CMOS device. Please take anti-static precautions during storage, transportation and operation.
 2. Ensure proper grounding when using the device.
 3. RF devices are voltage-sensitive. If the power supply is unstable or has significant ripple, add filtering at the power input terminal to ensure the supply voltage does not exceed the product's maximum operating voltage.
+
+## Frequently Asked Questions (Q&A)
+
+**Question 1:** How to switch the RX480E-868 mode between receive and transmit?
+
+**Answer:**
+
+Press the module's Learning button 5 times to switch the mode. RX480E-868 is in receive mode by default.
+
+From receive mode to transmit mode:
+
+1. Press the module's Learning button 5 times.
+2. Wait until the red indicator flashes twice. The module is now in transmit mode.
+
+From transmit mode to receive mode:
+
+1. Press the module's Learning button 5 times.
+2. Wait until the red indicator flashes 5 times. The module is now in receive mode.
+
+To check the current mode, power the module off and on again. Two red flashes mean receive mode. Two blue flashes mean transmit mode.
+
+Note: 5 presses always change the mode. Use 1, 2, or 3 presses to set a working mode.
+
+**Question 2:** Can RX480E-868 pair with a 433 MHz remote control?
+
+**Answer:**
+
+No. RX480E-868 works on 868 MHz only. It cannot pair with a 433 MHz remote control.
+
+**Question 3:** Can the four RX480E-868 outputs drive a load directly? How to connect the four outputs to an external transistor or relay?
+
+**Answer:**
+
+We do not recommend connecting the four RX480E-868 outputs to a load directly. They provide high-level signals in receive mode, and the maximum output current is 10 mA.
+
+The four outputs need a transistor to increase the current before driving a relay, motor, or other load. This wiring requires basic circuit design knowledge. You can also follow our wiring diagram directly.
+
+![QIACHIP RX480E transistor and relay wiring diagram](../QIACHIP_RX480E_Relay_Wiring_Diagram.png){ width="68%" .center loading="lazy" }
+
+**Question 4:** Do I need to pair the transmitter and receiver again after a long power outage?
+
+**Answer:**
+
+No. Once the transmitter and receiver are paired, they do not need to be paired again after a power outage.
+
+**Question 5:** Are the four outputs of RX480E-868 high-level or low-level outputs?
+
+**Answer:**
+
+In receive mode, all four D0-D3 pins of the RX480E-868 are high-level outputs. In transmit mode, the same four pins become low-level signal inputs.
+
+If you need low-level output in receive mode, add a transistor inverting circuit after the four outputs. This wiring requires basic circuit design knowledge.
+
+**Question 6:** Is Momentary mode the factory default output mode for RX480E-868?
+
+**Answer:**
+
+No. RX480E-868 has two kinds of mode. Receive mode is the factory default. The output working mode — Momentary, Toggle, or Latching — is not set at the factory. You choose it when you pair the remote control.
+
+To set Momentary mode:
+
+1. Power the module on. Two red flashes mean the module is in receive mode. If you see two blue flashes, press the module's Learning button 5 times to go back to receive mode.
+2. Press the module's Learning button 1 time. The red indicator flashes once and then stays on.
+3. Press the button on the remote control. The module's red indicator flashes 5 times. Momentary mode is set.

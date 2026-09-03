@@ -167,3 +167,68 @@ Details of the 433MHz antenna are as follows:
 1. This product is a CMOS device. Please take anti-static precautions during storage, transportation and operation.
 2. Ensure proper grounding when using the device.
 3. RF devices are voltage-sensitive. If the power supply is unstable or has significant ripple, add filtering at the power input terminal to ensure the supply voltage does not exceed the product's maximum operating voltage.
+
+## Frequently Asked Questions (Q&A)
+
+**Question 1:** Can each of the four RX480E-4C output pins be set to a different mode, such as D3 in Momentary mode and D2 in Toggle mode?
+
+**Answer:**
+
+No. You cannot set each output pin to its own mode. However, you can choose one of these working modes:
+
+- Reset the module: Press the Learning button 8 times
+- Momentary mode: Press the Learning button 1 time
+- Toggle mode: Press the Learning button 2 times
+- Latching mode: Press the Learning button 3 times
+- Two Toggle channels + two Momentary channels: Press the Learning button 4 times
+- Two Latching channels + two Momentary channels: Press the Learning button 5 times
+- Two Toggle channels + two Latching channels: Press the Learning button 6 times
+- Two Latching channels + two Latching channels: Press the Learning button 7 times
+
+**Question 2:** Can the four RX480E-4C outputs drive a load directly? How to connect the four outputs to an external transistor or relay?
+
+**Answer:**
+
+We do not recommend connecting the four RX480E-4C outputs to a load directly. They provide high-level signals, and the maximum output current is 10 mA.
+
+The four outputs need a transistor to increase the current before driving a relay, motor, or other load. This wiring requires basic circuit design knowledge. You can also follow our wiring diagram directly.
+
+![QIACHIP RX480E transistor and relay wiring diagram](../QIACHIP_RX480E_Relay_Wiring_Diagram.png){ width="68%" .center loading="lazy" }
+
+**Question 3:** Do I need to pair the transmitter and receiver again after a long power outage?
+
+**Answer:**
+
+No. Once the transmitter and receiver are paired, they do not need to be paired again after a power outage.
+
+**Question 4:** Are the four outputs of RX480E-4C high-level or low-level outputs?
+
+**Answer:**
+
+All four outputs of the RX480E-4C are high-level outputs.
+
+If you need low-level output, add a transistor inverting circuit after the four outputs. This wiring requires basic circuit design knowledge.
+
+**Question 5:** Why can't I change the working modes after connecting an external button and LED to the VT pin?
+
+**Answer:**
+
+![QIACHIP RX480E VT pin wiring diagram](../QIACHIP_RX480E_VT_Pin_Wiring_Diagram.png){ width="68%" .center loading="lazy" }
+
+The wiring may be wrong. Follow our wiring diagram.
+
+Connect a current-limiting resistor in series with the external LED. Otherwise, the VT pin voltage will be too low. When the VT pin voltage is too low, the module cannot change working modes.
+
+**Question 6:** Is Momentary mode the factory default output mode for RX480E-4C?
+
+**Answer:**
+
+No. RX480E-4C has no factory default mode. Choose the mode you need. You can find the pairing steps in the Function description and setting method section above.
+
+**Question 7:** Does the RX480E-4C receiver support EV1527 encoding? Can it pair with other EV1527 remote controls?
+
+**Answer:**
+
+Yes. The RX480E-4C receiver uses EV1527 learning code. Pair the remote control and receiver once before use.
+
+We recommend QIACHIP remotes. We do not guarantee pairing compatibility with other-brand remotes.
