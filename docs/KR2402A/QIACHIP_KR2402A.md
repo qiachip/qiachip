@@ -208,12 +208,139 @@ Click the learning button on the receiver 8 times. The reset is complete when th
 
 ## Frequently Asked Questions（Q&A）
 
-**Q1: I successfully programmed Momentary mode according to the manual. Relay 1 works correctly (NO contact closes). However, both A and B buttons operate Relay 1 only. Relay 2 never activates and its NO/NC contacts never change state. Is there an additional procedure required to assign button B to Channel 2, or is the receiver defective?**
 
-**A:** Press the button on the receiver 8 times to reset. After resetting, if pressing a button on the remote control fails to control the device, the reset is complete.
+**Question 1:** Why can my remote control Relay 1 but not Relay 2 in KR2402A Momentary mode?
 
-Depending on your desired pairing mode, press the corresponding number of buttons on the receiver until the indicator light turns off. Then press the button for the first remote control you want to pair.
+**Answer:**
 
-Here's the important part: After pressing the button, wait for the indicator light to flash and then turn off before pressing the button for the second remote control you want to pair.
+Your pairing steps may be wrong, so your remote can only control Relay 1.
 
-Only after both buttons are paired is the pairing considered successful.
+Pair the receiver again with the steps below:
+
+1. Press the receiver's Learning button 8 times to reset the receiver.
+2. Press the receiver's Learning button 1 time for Momentary mode.
+3. Press one button on the remote (such as A). Wait until the receiver's indicator light flashes, then turns off.
+4. Press another button on the remote (such as B). Wait until the receiver's indicator light flashes, then turns on.
+
+This sets both relays in Momentary mode.
+
+**Question 2:** Why do button A and button B both control Relay 1 after KR2402A Momentary pairing?
+
+**Answer:**
+
+Your pairing steps may be wrong, so button A and button B both control Relay 1.
+
+Pair the receiver again with the steps below:
+
+1. Press the receiver's Learning button 8 times to reset the receiver.
+2. Press the receiver's Learning button 1 time for Momentary mode.
+3. Press button A on the remote. Wait until the receiver's indicator light flashes, then turns off.
+4. Press button B on the remote. Wait until the receiver's indicator light flashes, then turns on.
+
+This sets button A for Relay 1 and button B for Relay 2 in Momentary mode.
+
+**Question 3:** What is the difference between KR2402A Momentary, Toggle, and Latching modes?
+
+**Answer:**
+
+KR2402A has three working modes.
+
+Momentary mode: the relay turns on while you hold the remote button. The relay turns off when you release it.
+
+Toggle mode: press the remote button once, and the relay turns on. Press the same remote button again, and the relay turns off.
+
+Latching mode: press remote button A, and Relay 1 turns on. Press remote button B, and Relay 2 turns on while Relay 1 turns off.
+
+Use Momentary mode for hold-to-run control. Use Toggle mode for on / off control. Use Latching mode when Relay 1 and Relay 2 must not stay on at the same time.
+
+**Question 4:** Can KR2402A trigger Relay 1 and Relay 2 one by one automatically?
+
+**Answer:**
+
+No, KR2402A does not have an automatic sequence mode.
+
+Relay 1 and Relay 2 are controlled by paired remote buttons. In Momentary mode or Toggle mode, remote button A can control Relay 1, and remote button B can control Relay 2.
+
+**Question 5:** How do I set two remotes to control Relay 1 and Relay 2 on KR2402A?
+
+**Answer:**
+
+Pair one button on each remote in the same setup. The first button you pair controls Relay 1. The second button you pair controls Relay 2.
+
+Example for Toggle mode:
+
+1. Press the receiver's Learning button 2 times for Toggle mode. Wait until the receiver's indicator light turns off.
+2. Press a button on the first remote. Wait until the receiver's indicator light flashes, then turns off.
+3. Press a button on the second remote. Wait until the receiver's indicator light flashes, then turns on.
+
+**Question 6:** Can I pair multiple remotes to channels A and B in Momentary mode?
+
+**Answer:**
+
+Yes, KR2402A can pair multiple remotes to channels A and B in Momentary mode.
+
+For each new remote, pair button A and button B in the same Momentary setup. Do not pair button A alone.
+
+Press the receiver's Learning button 8 times only if you want to reset the receiver. Reset deletes all paired remotes.
+
+**Question 7:** How do I use KR2402A Momentary mode to control a two-direction motor with button A and button B?
+
+**Answer:**
+
+Use KR2402A Momentary mode through the motor controller control inputs, not through the motor power wires.
+
+Pair the receiver with the steps below:
+
+1. Press the receiver's Learning button 1 time for Momentary mode. Wait until the receiver's indicator light turns off.
+2. Press remote button A for one motor direction. Wait until the receiver's indicator light flashes, then turns off.
+3. Press remote button B for the other motor direction. Wait until the receiver's indicator light flashes, then turns on.
+
+Button A: one motor direction runs while you hold button A.
+Button B: the other motor direction runs while you hold button B.
+
+The motor controller must prevent both directions from running at the same time.
+
+**Question 8:** Does the KR2402A relay stay on after power loss?
+
+**Answer:**
+
+No, the relay cannot stay on when the power is off.
+
+KR2402A can remember the paired remote and working mode after power loss. The relay state still needs power. After power comes back, the next relay action depends on the mode and remote command.
+
+**Question 9:** How should I wire KR2402A for my load?
+
+**Answer:**
+
+It depends on what load you want to control.
+
+Use the KR2402A wiring diagram that matches your load. Turn off power before wiring.
+
++V / -V: receiver power input, DC 5V-60V.
+
+Relay 1 output terminals: NO1 / COM1 / NC1.
+Relay 2 output terminals: NO2 / COM2 / NC2.
+
+The relay output is a dry contact. This means the relay output works like a switch. It does not output power by itself.
+
+**Question 10:** Can one remote control two KR2402A receivers in Momentary mode and Toggle mode?
+
+**Answer:**
+
+Yes, it is possible, but we do not recommend it if the two receivers are close to each other.
+
+One remote sends the same RF signal. If both receivers are within the same remote-control range, both may receive the signal and operate.
+
+Momentary mode and Toggle mode do not separate the RF signal. To avoid interference, keep the two receivers far enough apart, or use separate remotes.
+
+**Question 11:** Can I add a signal amplifier to KR2402A to reach 100 meters?
+
+**Answer:**
+
+No, we do not recommend adding a signal amplifier to the receiver.
+
+Changing the receiver may damage KR2402A or make the remote signal unstable.
+
+To improve remote-control range, fully extend the receiver antenna. Keep the receiver antenna away from metal parts and motor wires.
+
+If you need about 100 meters, use a longer-range remote with an antenna.

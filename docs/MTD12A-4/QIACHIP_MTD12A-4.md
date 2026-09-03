@@ -2,7 +2,7 @@
 comments: true
 ---
 
-# QIACHIP MTD12A-4 Instruction Manual DC 3V-16V 433MHz RF Wireless Micro Motor Receiver Module
+# QIACHIP MTD12A-4 Instruction Manual DC 3V-18V 433MHz RF Wireless Micro Motor Receiver Module
 
 ![QIACHIP MTD12A-4 Product Diagram.webp](QIACHIP_MTD12A-4_Product_Diagram.webp){ width="50%" .center loading="lazy" }
 
@@ -47,7 +47,7 @@ Disconnect power before wiring.
 Figure 1: Wiring diagram for DC motors
 
 - Load: DC motors
-- Input Power: DC V-30V
+- Input Power: DC 3V-18V
 
 ---
 
@@ -157,7 +157,7 @@ Click the learning button on the receiver 8 times. The indicator light will flas
 
 | Parameter | Value |
 | --- | --- |
-| Input voltage | DC 3-16V |
+| Input voltage | DC 3V-18V |
 | RF frequency | 433.92MHz |
 | Relay max contact curren | 2A |
 | Quiescent Current | ≤ 6mA |

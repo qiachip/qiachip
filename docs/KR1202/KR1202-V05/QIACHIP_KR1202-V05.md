@@ -9,10 +9,10 @@ comments: true
 > Version: V1.0
 > 
 
-> Last Updated: 2026-01-20
+> Last Updated: 2026-08-06
 > 
 
-> Model: KR1202-V05 ( KR1202 Series )
+> Model: KR1202-V05
 > 
 
 ## Product Size
@@ -87,7 +87,7 @@ Press the button on the remote control (such as A) once. The indicator light on 
 
 **Step 3**
 
-After the indicator light turns off, press another button (such as B) on the same remote control. The indicator light on the receiver will flash and then turn on. The momentary mode will be set successfully.
+Press another button (such as B) on the same remote control. The indicator light on the receiver will flash and then turn on. The momentary mode will be set successfully.
 
 ### (2) Toggle mode
 
@@ -108,14 +108,15 @@ Press the button on the remote control (such as A) once. The indicator light on 
 
 **Step 3**
 
-After the indicator light turns off, press another button (such as B) on the same remote control. The indicator light on the receiver will flash and then turn on. The Toggle mode will be set successfully.
+Press another button (such as B) on the same remote control. The indicator light on the receiver will flash and then turn on. The Toggle mode will be set successfully.
 
 ### (3) Latching mode
 
 In this mode:
 
-- Press the remote control button (such as A), and the receiver's relay will turn on.
-- Press the remote control button (such as B), and the receiver's relay will turn off.
+- Press the remote control button (such as A), and the motor rotates forward.
+- Press the remote control button (such as B), and the motor rotates backward.
+- Press the remote control button (such as C), and the motor stops.
 
 ### How to set latching mode
 
@@ -129,11 +130,7 @@ Press the button on the remote control (such as A) once. The indicator light on 
 
 **Step 3**
 
-After the indicator light turns off, press another button (such as B) on the same remote control. The indicator light on the receiver will flash and then will turn off.
-
-**Step 4**
-
-After the indicator light turns off, press another button (such as C) on the same remote control. The indicator light on the receiver will flash and then turn on. The latching mode will be set successfully.
+Press another button (such as B) on the same remote control. The indicator light on the receiver will flash and then turn on. The latching mode will be set successfully.
 
 ### (4) Reset function
 
@@ -160,3 +157,87 @@ Click the learning button on the receiver 8 times. The indicator light will flas
 
 - The positive and negative terminal wires must not be reversed.
 - When using wireless electronic devices, avoid proximity to metal objects, large electronic equipment, electromagnetic fields, and other sources of strong interference.
+
+## Frequently Asked Questions (Q&A)
+
+**Question 1:** Why does only one of the two KR1202-V05 channels work?
+
+**Answer:**
+
+Your pairing steps may be wrong, so the receiver may learn only one channel.
+
+Pair both channels again in the same Momentary setup:
+
+1. Press the receiver's Learning button 8 times to reset the receiver.
+2. Press the receiver's Learning button 1 time for Momentary mode. Wait until the receiver's indicator light turns off.
+3. Press one button on the remote (such as A). Wait until the receiver's indicator light flashes, then turns off.
+4. Press another button on the remote (such as B). Wait until the receiver's indicator light flashes, then turns on.
+
+This pairs both channels in Momentary mode.
+
+**Question 2:** Why does button A on one remote work in reverse from the other remotes?
+
+**Answer:**
+
+That transmitter may have been paired with a different button order.
+
+Reset the receiver once. Then pair all transmitters again with the same button order. Example for Momentary mode:
+
+1. Press the receiver's Learning button 8 times to reset the receiver.
+2. Press the receiver's Learning button 1 time for Momentary mode. Wait until the receiver's indicator light turns off.
+3. Press button A on transmitter 1 first. Wait until the receiver's indicator light flashes, then turns off.
+4. Press button B on transmitter 1 second. Wait until the receiver's indicator light flashes, then turns on.
+5. Repeat the same A/B button order for each transmitter.
+
+This pairs each transmitter with the same A/B button order.
+
+**Question 3:** Why does my motor go up but not down after KR1202-V05 worked normally for one week?
+
+**Answer:**
+
+If the motor worked normally before but now goes up and not down, the first thing to check is loose wiring.
+
+The likely causes are:
+
+1. One motor output wire may have become loose. Check the wires on M1 and M2, especially the wire for the failed direction.
+
+2. The remote battery may be weak. One button signal may still work, but the other button signal may be too weak. Replace the remote battery. Then pair the remote and receiver again.
+
+If the wiring is tight, the battery is new, and pairing again does not fix it, the receiver may have a fault. In that case, apply for a return or replacement.
+
+**Question 4:** How do I pair all 4 transmitters for my theft alarm if only 1 transmitter works now?
+
+**Answer:**
+
+This is usually because the receiver was reset before each new transmitter was paired.
+
+Do not press the receiver's Learning button 8 times before pairing each new transmitter.
+
+Reset deletes all paired transmitters. If you reset before pairing the next transmitter, only the last transmitter may work.
+
+Pair the 4 transmitters again with the steps below:
+
+1. Press the receiver's Learning button 8 times to reset the receiver once.
+2. Press the receiver's Learning button 1 time for Momentary mode. Wait until the receiver's indicator light turns off.
+3. Press the first remote button on transmitter 1. Wait until the receiver's indicator light flashes, then turns off.
+4. Press the second remote button on transmitter 1. Wait until the receiver's indicator light flashes, then turns on.
+5. Repeat the same button order for transmitter 2, transmitter 3, and transmitter 4.
+
+Use QIACHIP brand transmitters for this setup. Other-brand transmitter compatibility is not guaranteed.
+
+**Question 5:** Why does my gate open and close by itself without pressing the remote? Is it interference?
+
+**Answer:**
+
+Yes, it may be interference from a nearby same-frequency signal.
+
+If the receiver learned that interference signal during pairing, that signal may control the receiver. Then the receiver may open or close the gate without pressing your remote.
+
+Pair the remote and receiver again in a place with no signal interference:
+
+1. Move the receiver away from the gate and nearby interference sources.
+2. Pair your remote and receiver again.
+3. Connect the receiver to the gate equipment again.
+4. Test the gate with your remote.
+
+If the gate location always has same-frequency interference, we do not recommend this 433.92MHz wireless controller. Use a different-frequency controller to avoid signal interference.
