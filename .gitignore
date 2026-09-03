@@ -1,8 +1,24 @@
-temp/
-.cursor/rules/
-.trae/rules/
+# 依赖与构建产物
 venv/
+node_modules/
 site/
-.worktrees/
 __pycache__/
 *.pyc
+
+# 本地工具状态（不进仓库）
+.claude/settings.local.json
+.claude/worktrees/
+.worktrees/
+.cursor/rules/
+.trae/rules/
+
+# 临时文件与会话产物
+temp/
+.tmp-*/
+*.log
+.rx480e_*
+.qar_*
+
+# 大体积素材（本地保留，不进仓库）
+Forum/RX480E/客户问题视频/
+AI_image/
